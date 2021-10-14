@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewModels="clr-namespace:eNamjestaj.Mobile.ViewModels" 
+             xmlns:model="clr-namespace:eNamjestaj.Model.Requests;assembly=eNamjestaj.Model"
+             x:Class="eNamjestaj.Mobile.Views.NarudzbaPage">
+
+
+    <RefreshView x:DataType="viewModels:NarudzbaViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+        <StackLayout>
+            <Label Text="{Binding TextIfEmpty}"></Label>
+            <CollectionView x:Name="ItemsListView"
+                ItemsSource="{Binding NarudzbeProizvodList}"
+                SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10" x:DataType="model:NarudzbaProizvodDisplayRequest" >
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="22"></RowDefinition>
+                                <RowDefinition Height="22"></RowDefinition>
+                                <RowDefinition Height="22"></RowDefinition>
+                                <RowDefinition Height="22"></RowDefinition>
+                                <RowDefinition Height="22"></RowDefinition>
+
+                            </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="120"></ColumnDefinition>
+                                    <ColumnDefinition Width="80"></ColumnDefinition>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+
+                                </Grid.ColumnDefinitions>
+
+                                <Image Grid.Row="0" Grid.RowSpan="5" Grid.Column="0" Source="{Binding Slika}" />
+
+                            <Label Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Text="{Binding NazivProizvoda}" FontSize="Small" LineBreakMode="NoWrap" ></Label>
+                            <Label Grid.Row="1" Grid.Column="1" Text="Cijena: " Font="Small"  TextColor="Gray" LineBreakMode="NoWrap" ></Label>
+                            <Label Grid.Row="2" Grid.Column="1" Text="Kolicina: " Font="Small"  TextColor="Gray" ></Label>
+                            <Label Grid.Row="3" Grid.Column="1" Text="Boja: " Font="Small"  TextColor="Gray" LineBreakMode="NoWrap" ></Label>
+                            <Label Grid.Row="4" Grid.Column="1" Text="Total: " Font="Small"  TextColor="Gray"></Label>
+
+
+
+
+                            <Label Grid.Row="1" Grid.Column="2" Text="{Binding Cijena}" Font="Small"  TextColor="Gray" ></Label>
+                            <Label Grid.Row="2" Grid.Column="2" Text="{Binding Kolicina}" Font="Small"  TextColor="Gray" ></Label>
+                            <Label Grid.Row="3" Grid.Column="2" Text="{Binding Boja}" Font="Small"  TextColor="Gray"></Label>
+                            <Label Grid.Row="4" Grid.Column="2" Text="{Binding TotalStavka}" Font="Small"  TextColor="Gray"></Label>
+
+                            <Button Grid.Row="3" Grid.RowSpan="2"   Grid.Column="3" Text="Izbrisi" 
+                                    FontSize="Small" BackgroundColor="Coral" CommandParameter="{Binding NarudzbaStavkaId}" Clicked="Button_Clicked"></Button>
+
+                           
+                        </Grid>
+
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+         
+        </CollectionView>
+            <StackLayout Orientation="Vertical" Margin="0,10,0,0" Padding="5" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand">
+                <StackLayout Orientation="Horizontal">
+                    <Label Padding="0,10,0,0" FontSize="16" FontAttributes="Bold" TextColor="DarkSlateGray" Text="{Binding UkupnoLbl} "></Label>
+                    <Label Padding="0,10,0,0" FontSize="16" TextColor="DarkSlateGray" Text="{Binding Ukupno}"></Label>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                    <Label Padding="0,10,0,0" FontSize="16" FontAttributes="Bold" TextColor="DarkSlateGray" Text="{Binding PDVStringLbl} "></Label>
+                    <Label Padding="0,10,0,0" FontSize="16" TextColor="DarkSlateGray" Text="{Binding PDVString}"></Label>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                    <Label Padding="0,10,0,0" FontSize="16" FontAttributes="Bold" TextColor="DarkSlateGray" Text="{Binding UkupnoSaPDVLbl} "></Label>
+                    <Label Padding="0,10,0,0" FontSize="16" TextColor="DarkSlateGray" Text="{Binding UkupnoSaPDV}"></Label>
+            </StackLayout>
+            </StackLayout>
+
+
+            <Button Text="{Binding Naziv}" Command="{Binding ZakljuciCommand}"></Button>
+        </StackLayout>
+       
+    </RefreshView>
+
+    
+</ContentPage>

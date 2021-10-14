@@ -1,0 +1,140 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.NabavkaMaterijalStavkeDodajVM
+@{
+    //Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dodaj</title>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+    <style>
+        @*tr.hide-table-padding td {
+            padding: 0;
+        }
+
+        .expand-button {
+            position: relative;
+        }
+
+        .accordion-toggle .expand-button:after {
+            position: absolute;
+            left: .75rem;
+            top: 50%;
+            transform: translate(0, -50%);
+            content: '-';
+        }
+
+        .accordion-toggle.collapsed .expand-button:after {
+            content: '+';
+        }*@
+
+
+    </style>
+</head>
+<body>
+    <div class="container" @*class="col-lg-8"*@>
+
+        <form ajax-poziv="da" style="padding:10px;" ajax-url="/ModulMenadzer/NabavkaMaterijalStavke/Snimi" ajax-rezultat="@Model.NabavkaId.ToString()" data-ajax="true" data-ajax-update="#dodajNovuNabavkaMatStavku" data-ajax-mode="replace" id="dodajNovuNabavkaMatStavku" class="form-inline" role="form">
+
+
+            <input type="hidden" asp-for="NabavkaId" />
+            <div class="input-group">
+                <div class="form-group">
+                    <label for="MaterijalId">Materijal</label>
+                    <select style=" width: 200px; margin-left: 10px; margin-right: 10px;" class="form-control" asp-for="MaterijalId" asp-items="@Model.Materijali">
+                        <option value=""></option>
+                    </select>
+                    @*<span asp-validation-for="MaterijalID" class="text-danger"></span>*@
+                </div>
+                <div class="form-group">
+                    <label for="Kol">Kolicina</label>
+                    <input asp-for="Kol" style="width:75px; padding:10px; margin-left:10px; margin-right:10px;" class="form-control">
+                    @*<span asp-validation-for="Kol" class="text-danger"></span>*@
+
+                </div>
+
+                <div class="form-group">
+                    <input style="  margin-left:10px; margin-right:10px;" type="submit" value="Snimi" class="btn btn-success" />
+                </div>
+            </div>
+            <br />
+            <div class="=row ">
+                <div class="col-12">
+                    <span asp-validation-for="MaterijalId" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <span asp-validation-for="Kol" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <br />
+        </form>
+    </div>
+
+    <script>
+        $(function () {
+        //allow the validation framework to re-prase the DOM
+        jQuery.validator.unobtrusive.parse();
+
+        //or to give the parser some context, supply it with a selector
+        //jQuery validator will parse all child elements (deep) starting
+        //from the selector element supplied
+            jQuery.validator.unobtrusive.parse("#dodajNovuNabavkaMatStavku");
+        });
+
+        $(document).ready(function () {
+            $("form[ajax-poziv='da']").submit(function (event) {
+
+
+                $('#dodajNovuNabavkaMatStavku').validate();
+                $(this).attr("ajax-poziv", "dodan");
+                event.preventDefault();
+
+                if (!$("#dodajNovuNabavkaMatStavku").valid()) {
+                    return false;
+                }
+                else {
+                    var divZaRezultat = $(this).attr("ajax-rezultat");
+                    /*if (kol >= 1 && x<=100) {//$("#ocjenaSpan").html("Ocjena je neophodna");
+
+                        if (!$("#dodajNovuNormativStavku").valid()) {
+                            return false;
+                        }
+                        else {*/
+                    var urlZaPoziv1 = $(this).attr("ajax-url");
+
+                    var form = $(this);
+
+                    $.ajax({
+                        type: "POST",
+                        url: urlZaPoziv1,
+                        data: form.serialize(),
+                        success: function (data) {
+                            $("#" + divZaRezultat).html(data);
+                        }
+                    });
+                    //}
+                }
+                /*}
+                else {
+                    $("#spanKol").html("Unesite kolicinu (1-100)");
+
+                    $("#dodajNovuNormativStavku").valid() == false;
+                }*/
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+

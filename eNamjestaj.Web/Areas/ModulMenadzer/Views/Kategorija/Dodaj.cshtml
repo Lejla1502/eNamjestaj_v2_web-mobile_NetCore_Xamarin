@@ -1,0 +1,26 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.KategorijaDodajVM
+@{
+    ViewData["Title"] = "Dodaj";
+}
+
+<h2>Dodaj kategoriju</h2>
+<div class="col-lg-8">
+    <form id="dodajKategoriju" asp-action="SnimiNovuKategoriju" asp-controller="Kategorija" asp-area="ModulMenadzer" method="post" enctype="multipart/form-data">
+        @*<input type="hidden" value="@Model.ProizvodId" name="ProizvodId" id="prID" />*@
+        <div class="form-group">
+            <label>Naziv kategorije: </label>
+            <div>
+                <input asp-for="Naziv" class="form-control" />
+                <span asp-validation-for="Naziv" class="text-danger"></span>
+            </div>
+        </div>
+
+
+       
+        
+        <br />
+        <br />
+        <input id="submitButton" type="submit" value="Snimi" class="btn btn-primary" />
+
+    </form>
+</div>

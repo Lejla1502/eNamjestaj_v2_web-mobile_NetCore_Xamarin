@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:eNamjestaj.Mobile.ViewModels"
+             x:Class="eNamjestaj.Mobile.Views.ProfilEditPage">
+    <ContentPage.BindingContext>
+        <vm:ProfilEditViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+            <!--<StackLayout  Orientation="Horizontal">
+                <Entry IsEnabled="False" Placeholder="Ime" Text="{Binding ImePrezime}"></Entry>
+                <Entry Placeholder="Prezime" Text="{Binding Prezime}"></Entry>
+            </StackLayout>-->
+            <Label  Text="{Binding ImePrezime}" FontSize="Medium"></Label>
+            <Label Text="Korisnicko ime: " Margin="0,10,0,0"></Label>
+            <Entry Placeholder="Korisnicko ime" Text="{Binding KorisnickoIme}"></Entry>
+            <Label Text="Email: "></Label>
+            <Entry Placeholder="Email" Text="{Binding Email}"></Entry>
+            <Label Text="Lozinka: "></Label>
+            <Entry Placeholder="Lozinka" IsPassword="True" Text="{Binding Password}"></Entry>
+            <Label Text="Potvrda lozinke: "></Label>
+            <Entry Placeholder="Potvrda lozinke" IsPassword="True" Text="{Binding PasswordPotvrda}"></Entry>
+            <Label Text="Odaberi opstinu: "></Label>
+            <Picker ItemsSource="{Binding OpstinaList}" SelectedIndex="{Binding OpstinaProp.Id, Mode=TwoWay}" ItemDisplayBinding="{Binding Naziv,Mode=TwoWay}" ></Picker>
+            <Label Text="Adresa: "></Label>
+            <Entry Placeholder="Adresa" Text="{Binding Adresa}"></Entry>
+
+
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="Center" VerticalOptions="Center">
+                <Button  Text="Snimi" Margin="0,20,0,2"  FontSize="17" HeightRequest="35"
+                            
+                        Command="{Binding SpremiCommand}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" />
+            
+            
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

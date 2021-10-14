@@ -1,0 +1,305 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.DashboardViewModel
+@{
+    //Layout = null;
+}
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+
+</head>
+<body class="sb-nav-fixed">
+    <div>
+        <main>
+            <div class="container-fluid">
+
+                <div class="row">
+
+                        <div class="col-xl-4 col-md-6">
+                            <div class="card bg-primary text-white mb-4">
+                                <div class="card-header card-header-icon ">
+
+
+                                    <span class="d-inline-block ">
+                                        <i class="fas fa-store-alt"></i>
+                                    </span>
+                                    <span class="d-inline-block card-category" style="padding-bottom:13px;">Zarada</span>
+
+                                    <h3 class="card-title">@Model.Zarada.ToString("0.00") KM</h3>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="stats">
+                                        <i class="material-icons">date_range</i> Zadnja 24 Sata
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div class="card bg-warning text-white mb-4">
+                                <div class="card-header  card-header-icon">
+
+                                    <span class="d-inline-block ">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </span>
+                                    <span class="d-inline-block card-category" style="padding-bottom:13px;">Kupljeni proizvodi</span>
+
+
+                                    <h3 class="card-title">@Model.BrProdanihProizvoda</h3>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="stats">
+                                        <i class="material-icons">date_range</i> Zadnja 24 Sata
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div class="card bg-danger text-white mb-4">
+                                <div class="card-header  card-header-icon">
+
+                                    <span class="d-inline-block ">
+                                        <i class="fas fa-percent"></i>
+                                    </span>
+                                    <span class="d-inline-block card-category" style="padding-bottom:13px;">Proizvoda na akciji</span>
+
+
+
+                                    <h3 class="card-title">@Model.BrProizvodaNaSnizenju</h3>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="stats">
+                                        <i class="material-icons">date_range</i> Od <b>@Model.DatumOd.ToString("dd/MM/yyyy")</b> do <b>@Model.DatumDo.ToString("dd/MM/yyyy")</b>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-xl-3 col-md-6">
+            <div class="card bg-warning text-white mb-4">
+                <div class="card-body" style="margin-left:5px; font-size:23px;"><b>@Model.BrProizvoda</b></div>
+                <div style="margin-left:7px; padding-left:17px;">Proizvoda</div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-success text-white mb-4">
+                <div class="card-body" style="margin-left:5px; font-size:23px;"><b>@Model.BrKorisnika</b></div>
+                <div style="margin-left:7px; padding-left:17px;">Korisnika</div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-danger text-white mb-4">
+                <div class="card-body" style="margin-left:5px; font-size:23px;"><b>@Model.BrProizvodaNaSnizenju</b></div>
+                <div style="margin-left:7px; padding-left:17px;">Proizvoda na snizenju</div>
+            </div>
+        </div>-->
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <i class="fas fa-chart-area mr-1"></i>
+                                    Broj prodatih proizvoda za 2021. godinu
+                                </div>
+                                <div class="card-body"><canvas id="myAreaChart" width="100%" height="50"></canvas></div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <i class="fas fa-chart-bar mr-1"></i>
+                                    Najprodavaniji proizvodi u 2021. godini
+                                </div>
+                                <div class="card-body"><canvas id="myBarChart" width="100%" height="50"></canvas></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+    <script src="assets/demo/datatables-demo.js"></script>
+    <script src="https://www.jsdelivr.com/package/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0/chartjs-plugin-datalabels.min.js" integrity="sha512-R/QOHLpV1Ggq22vfDAWYOaMd5RopHrJNMxi8/lJu8Oihwi4Ho4BRFeiMiCefn9rasajKjnx9/fTQ/xkWnkDACg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+
+    <script>
+        var BrProdanihPoMjesecima = @Html.Raw(Json.Serialize(Model.BrProdanihProizvodaPoMjesecima));
+        // Set new default font family and font color to mimic Bootstrap's default styling
+        Chart.defaults.global.defaultFontFamily = '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
+        Chart.defaults.global.defaultFontColor = '#292b2c';
+
+        // Area Chart Example
+        var ctx = document.getElementById("myAreaChart");
+        var myLineChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+
+                labels: ["Januar", "Februar", "Mart", "April", "Maj", "Juni", "Juli", "August", "Septembar", "Oktobar", "Novembar", "Decembar"],
+                datasets: [{
+
+                    label: "Broj proizvoda",
+                    lineTension: 0.3,
+                    backgroundColor: "rgba(2,117,216,0.2)",
+                    borderColor: "rgba(2,117,216,1)",
+                    pointRadius: 5,
+                    pointBackgroundColor: "rgba(2,117,216,1)",
+                    pointBorderColor: "rgba(255,255,255,0.8)",
+                    pointHoverRadius: 5,
+                    pointHoverBackgroundColor: "rgba(2,117,216,1)",
+                    pointHitRadius: 50,
+                    pointBorderWidth: 2,
+                    data: BrProdanihPoMjesecima,
+                }],
+            },
+            options: {
+                scales: {
+                    xAxes: [{
+                        time: {
+                            unit: 'date'
+                        },
+                        gridLines: {
+                            display: false
+                        },
+                        ticks: {
+                            maxTicksLimit: 7
+                        }
+                    }],
+                    yAxes: [{
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Broj prodanih proizvoda'
+                        },
+                        ticks: {
+                            min: 0,
+                            max: 40,
+                            maxTicksLimit: 5
+                        },
+                        gridLines: {
+                            color: "rgba(0, 0, 0, .125)",
+                        }
+                    }],
+                },
+                legend: {
+                    display: false,
+                    title: {
+                        display: true,
+                        text: 'Broj prodanih proizvoda od 01.01.2021 do 31.12.2021'
+                    }
+                }
+            }
+        });
+
+
+
+        var NaziviTop5 = @Html.Raw(Json.Serialize(Model.NaziviNajprodavanijihProizvoda));
+        var KolicineTop5 = @Html.Raw(Json.Serialize(Model.KolicineNajprodavanijihProizvoda));
+
+        // Bar Chart Example
+        var ctx = document.getElementById("myBarChart");
+        var myLineChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: NaziviTop5,
+                datasets: [{
+                    label: "Kolicina",
+                    backgroundColor: "rgba(2,117,216,1)",
+                    borderColor: "rgba(2,117,216,1)",
+                    barThickness: 1,
+                    data: KolicineTop5,
+                    xAxis: {
+                        gridLineWidth: 0
+                    },
+                    yAxis: {
+                        gridLineWidth: 0,
+                        minorTickInterval: null
+                    }
+                }],
+            },
+
+
+            options: {
+                layout: {
+                    padding: {
+                        left: 0,
+                        right: 0,
+                        top: 15,
+                        bottom: 0
+                    }
+                },
+                scales: {
+
+                    xAxes: [{
+                        gridLines: {
+                            display: false,
+                            drawBorder: false,
+
+                        },
+                        ticks: {
+
+
+                            maxTicksLimit: 6
+                        }
+
+                    }],
+                    yAxes: [{
+                        ticks: {
+                            min:0,
+                            maxTicksLimit: 5,
+                            display: false,
+                            mirror: true,
+                            labelOffset: -12
+                        },
+                        barThickness: 10,
+                        gridLines: {
+                            display: false,
+                            drawBorder: false,
+
+                        }
+                    }],
+                },
+
+                animation: {
+                    duration: 1,
+                    onComplete: function () {
+                        var chartInstance = this.chart,
+                            ctx = chartInstance.ctx;
+
+                        ctx.font = Chart.helpers.fontString(Chart.defaults.global.defaultFontSize, Chart.defaults.global.defaultFontStyle, Chart.defaults.global.defaultFontFamily);
+                        ctx.textAlign = 'center';
+                        ctx.textBaseline = 'bottom';
+
+                        this.data.datasets.forEach(function (dataset, i) {
+                            var meta = chartInstance.controller.getDatasetMeta(i);
+                            meta.data.forEach(function (bar, index) {
+                                if (dataset.data[index] > 0) {
+                                    var data = dataset.data[index];
+                                    ctx.fillText(data, bar._model.x, bar._model.y);
+                                }
+                            });
+                        });
+                    }
+                },
+                legend: {
+                    display: false
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿
+@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.ProizvodniNalogDetaljiVM
+@{
+    ///Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>@Model.Nalog</h1>
+    <div class="card-body">
+        <div class="table-responsive ">
+            <table class=" table table-bordered" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Naziv mat.</th>
+                        <th>Sifra</th>
+                        <th>Kol</th>
+                        <th>Cijena</th>
+                        <th>Ukupno</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var x in Model.StavkeNaloga)
+                    {
+                        <tr>
+                            <td>@x.NazivMat</td>
+                            <td>@x.Sifra</td>
+                            <td>@x.Kol</td>
+                            <td>@x.Cijena</td>
+                            <td>@x.Ukupno</td>
+                        </tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+</html>

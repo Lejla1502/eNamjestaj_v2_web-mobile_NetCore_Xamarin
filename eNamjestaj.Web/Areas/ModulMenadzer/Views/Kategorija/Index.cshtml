@@ -1,0 +1,78 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.KategorijaIndexVM
+@{ //Layout = null;
+   
+}
+
+
+<body>
+    <h1>Pregled kategorija</h1>
+    <br />
+    
+
+
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class=" table table-bordered" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Naziv kategorije</th>
+                        @*<th>Naziv podkategorije</th>*@
+                        <th>Akcija</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var x in Model.Kategorije)
+                    {
+        <tr>
+            <td>@x.NazivKategorije</td>
+            @*<td>@x.NazivPodkategorije</td>*@
+        <td>
+
+            <a class="btn btn-warning" ajax-poziv="da" ajax-rezultat="divKategorijerezultat" asp-action="Uredi" asp-route-id="@x.Id" asp-area="ModulMenadzer">Uredi</a>
+            <a class="btn btn-danger" asp-action="Obrisi" asp-route-id="@x.Id" asp-area="ModulMenadzer">Obrisi</a>
+
+        </td>
+        </tr>}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <a class="btn btn-success" ajax-poziv="da" ajax-rezultat="divKategorijerezultat" asp-action="Dodaj" asp-area="ModulMenadzer">Dodaj</a>
+    </div>
+    <br />
+    <br />
+    <div id="divKategorijerezultat"></div>
+    <br />
+
+    <br />
+
+
+
+
+
+    <script>$("a[ajax-poziv='da']").click(function (event) {
+                    $(this).attr("ajax-poziv", "dodan");
+                    event.preventDefault();
+                    var urlZaPoziv1 = $(this).attr("ajax-url");
+                    var urlZaPoziv2 = $(this).attr("href");
+                    var divZaRezultat = $(this).attr("ajax-rezultat");
+
+                    var urlZaPoziv;
+
+                    if (urlZaPoziv1 instanceof String)
+                        urlZaPoziv = urlZaPoziv1;
+                    else
+                        urlZaPoziv = urlZaPoziv2;
+
+                    $.get(urlZaPoziv, function (data, status) {
+                        $("#" + divZaRezultat).html(data);
+                    });
+                });</script>
+</body>
+
+
+
+
+
+

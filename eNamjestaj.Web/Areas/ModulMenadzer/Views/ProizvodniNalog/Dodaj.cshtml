@@ -1,0 +1,81 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.ProizvodniNalogDodajVM
+
+@{ //Layout = null;
+   }
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dodaj</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+</head>
+<body>
+    <div class="col-lg-8">
+        <form id="dodajNoviNalog" asp-action="Snimi" asp-controller="ProizvodniNalog" asp-area="ModulMenadzer" method="post">
+
+            @*<input type="hidden" asp-for="SkladisteId">*@
+
+            <div class="form-group">
+                <label>Proizvod: </label>
+
+                <div>
+                    <select class="form-control" asp-for="ProizvodID" asp-items="@Model.Proizvodi">
+                        <option value=""></option>
+                    </select>
+
+                    <span asp-validation-for="ProizvodID" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Skladiste materijala: </label>
+
+                <div>
+                    <select class="form-control" asp-for="SkladisteMatID" asp-items="@Model.SkladistaMat">
+                        <option value=""></option>
+                    </select>
+
+                    <span asp-validation-for="SkladisteMatID" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Skladiste proizvoda: </label>
+
+                <div>
+                    <select class="form-control" asp-for="SkladistePrID" asp-items="@Model.SkladistaPr">
+                        <option value=""></option>
+                    </select>
+
+                    <span asp-validation-for="SkladistePrID" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Količina : </label><br />
+                <input asp-for="Kol" class="form-control" style="width:80px;" /><br />
+                <span asp-validation-for="Kol" class=" text-danger"></span>
+            </div>
+
+            <br />
+            <input id="submitButton" type="submit" value="Snimi" class="btn btn-primary" />
+
+        </form>
+    </div>
+
+    <script>$(function () {
+
+            jQuery.validator.unobtrusive.parse();
+
+    jQuery.validator.unobtrusive.parse("#dodajNoviNalog");
+        });</script>
+</body>
+</html>
+
+
+

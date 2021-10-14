@@ -1,0 +1,137 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.ProizvodniNalogIndexVM 
+@{
+//Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Evidencija prodajnog naloga</title>
+</head>
+<body>
+    <h1>Pregled proizvodnih naloga</h1>
+    <br />
+    @if (Model != null)
+    {<form action="/ModulMenadzer/ProizvodniNalog/Index" class="form-inline">
+
+        <div class="form-group">
+            <label for="DatumPretraga">Datum:</label>
+
+            <input id="DatumPretraga" placeholder="Odaberi datum" asp-for="DatumPretraga"
+                   type="date" style="margin-left:10px; margin-right:15px; width:200px !important;" class="form-control ">
+
+        </div>
+
+        <div class="form-group">
+            <label>Proizvod: </label>
+
+            <div style="margin-left:10px; margin-right:15px;">
+                <select class="form-control" asp-for="ProizvodIdPretraga" asp-items="@Model.Proizvodi">
+                    <option value=""></option>
+                </select>
+
+            </div>
+        </div>
+
+
+        <br />
+        <input type="submit" value="Pretraga" style="margin-right:15px;" class="btn btn-primary" />
+        <a href="/ModulMenadzer/ProizvodniNalog/Index?DatumPretraga=null" class="btn btn-dark ">
+            Resetuj filtere
+        </a>
+    </form>
+    <br />
+
+
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class=" table table-bordered" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Br. naloga</th>
+                        <th>Datum</th>
+                        <th>Proizvod</th>
+                        <th>Skl. mat.</th>
+                        <th>Skl. proizv.</th>
+                        <th>Korisnik ev.</th>
+                        <th>Kol</th>
+                        <th>Cijena/jed.</th>
+                        <th>Total</th>
+                        <th>Zakljucen</th>
+                        <th>Akcija</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var x in Model.Nalozi)
+                    {
+                        <tr>
+                            <td>@x.BrNaloga</td>
+                            <td>@x.Datum.ToShortDateString()</td>
+                            <td>@x.Proizvod</td>
+                            <td>@x.SkladisteMat</td>
+                            <td>@x.SkladistePr</td>
+                            <td>@x.Korisnik</td>
+                            <td>@x.Kol</td>
+                            <td>@x.CijenaPojedinacno KM</td>
+                            <td>@x.CijenaTotal KM</td>
+                            <td>@(x.Zakljucen ? "Da" : "Ne")</td>
+                            <td>
+                                @if (!x.Zakljucen)
+                                {
+                                    <div>
+                                        <a class="btn btn-danger" asp-action="Obrisi" asp-route-id="@x.Id" asp-area="ModulMenadzer">Obrisi</a>
+                                        @if (x.ZakljucenNormativ)
+                                        {<a class="btn btn-primary" asp-action="Zakljuci" asp-route-id="@x.Id" asp-area="ModulMenadzer">Zakljuci</a>}
+                                    </div>
+
+                                    <a class="btn btn-secondary" ajax-poziv="da" ajax-rezultat="divProizvodniNalogrezultat" asp-action="Uredi" asp-route-id="@x.Id" asp-area="ModulMenadzer">Uredi</a>
+                                }
+                                <a class="btn btn-warning" ajax-poziv="da" ajax-rezultat="divProizvodniNalogrezultat" asp-action="Detalji" asp-route-id="@x.NormativId" asp-route-nalogId="@x.Id"  asp-area="ModulMenadzer">Stavke</a>
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <a class="btn btn-danger" ajax-poziv="da" ajax-rezultat="divProizvodniNalogrezultat" asp-action="Dodaj" asp-area="ModulMenadzer">Dodaj</a>
+    </div>
+    <br />
+    <br />
+    <div id="divProizvodniNalogrezultat"></div>
+    <br />
+
+    <br />
+    }
+    else
+    {
+        <div>Molimo unesite prvenstveno podatke za normativ</div>
+    }
+
+    <script>
+    $("a[ajax-poziv='da']").click(function (event) {
+            $(this).attr("ajax-poziv", "dodan");
+            event.preventDefault();
+            var urlZaPoziv1 = $(this).attr("ajax-url");
+            var urlZaPoziv2 = $(this).attr("href");
+            var divZaRezultat = $(this).attr("ajax-rezultat");
+
+            var urlZaPoziv;
+
+            if (urlZaPoziv1 instanceof String)
+                urlZaPoziv = urlZaPoziv1;
+            else
+                urlZaPoziv = urlZaPoziv2;
+
+            $.get(urlZaPoziv, function (data, status) {
+                $("#" + divZaRezultat).html(data);
+            });
+        });</script>
+</body>
+
+</html>
+    

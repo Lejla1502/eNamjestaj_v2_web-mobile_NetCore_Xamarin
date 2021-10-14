@@ -1,0 +1,177 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.NabavkaMaterijalIndexVM
+@{
+    //Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <link rel="stylesheet" href="https://maxcdn.​bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <style>
+        tr.hide-table-padding td {
+            padding: 0;
+        }
+
+       /* .expand-button {
+            position: relative;
+        }
+
+        .accordion-toggle .expand-button:after {
+            position: absolute;
+            left: .75rem;
+            top: 50%;
+            transform: translate(0, -50%);
+            content: '-';
+        }
+
+        .accordion-toggle.collapsed .expand-button:after {
+          */  content: '+';
+        }
+    </style>
+</head>
+<body>
+    @if (Model != null)
+    {<h1>Pregled nabavki materijala</h1>
+        <br />
+        <form action="/ModulMenadzer/NabavkaMaterijal/Index" class=" form-inline">
+
+            <div class="form-group">
+                <label for="DatumPretraga">Datum:</label>
+
+                <input id="DatumPretraga" placeholder="Odaberi datum" asp-for="DatumPretraga"
+                       type="date" style="margin-left:10px; margin-right:15px; width:200px !important;" class="form-control ">
+
+            </div>
+
+            <div class="form-group">
+                <label for="BrojPretraga">Broj nabavke:</label>
+
+                <input placeholder="Unesite broj nabavke" asp-for="BrojPretraga"
+                       type="text" style="margin-left:10px; margin-right:15px; width:200px !important;" class="form-control ">
+
+            </div>
+            <br />
+            <input type="submit" value="Pretraga" style="margin-right:15px;" class="btn btn-primary" />
+            <a href="/ModulMenadzer/NabavkaMaterijal/Index?DatumPretraga=null" class="btn btn-dark ">
+                Resetuj datum
+            </a>
+
+        </form>
+        <br />
+
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class=" table table-bordered" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Broj nabavke</th>
+                            <th>Skladiste</th>
+                            <th>Datum</th>
+                            <th>Korisnik evidentirao</th>
+                            <th>Dobavljac</th>
+                            <th>Zakljucena</th>
+                            <th>Akcija</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var x in Model.Nabavke)
+                        {
+                            <tr class="accordion-toggle collapsed" id="@x.BrojNabavke" data-toggle="collapse" data-parent="#@x.BrojNabavke" href="#@x.Id.ToString()">
+                                <td class="expand-button">
+                                    <a class="btn more-info" ajax-poziv="da" ajax-rezultat="@x.Id.ToString()" asp-action="Index"
+                                       asp-route-id="@x.Id" asp-controller="NabavkaMaterijalStavke" asp-area="ModulMenadzer">
+                                        <i class=" fa fa-caret-down"></i> Stavke
+                                    </a>
+                                </td>
+                                <td>@x.BrojNabavke</td>
+                                <td>@x.Skladiste</td>
+                                <td>@x.Datum.ToShortDateString()</td>
+                                <td>@x.KorisnikEvid</td>
+                                <td>@x.Dobavljac</td>
+                                <td>@(x.Zakljucena?"Da":"Ne")</td>
+                                <td>
+
+
+                                    @if (!x.Zakljucena)
+                                    {<a id="delBM" class="btn btn-danger" asp-action="Obrisi" asp-route-id="@x.Id" asp-area="ModulMenadzer">Obrisi</a>
+                                        
+}
+
+                                </td>
+                            </tr>
+                            <tr class="hide-table-padding">
+                                <td></td>
+                                <td colspan="7">
+                                    <div id="@x.Id.ToString()" class="collapse in p-lg-3">
+                                        <div id="nekiNoviDivMat"></div>
+
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div>Nemate nijednu nabavku!</div>
+    }
+    <div class="container-fluid">
+        <a class="btn btn-success" ajax-poziv="da" ajax-rezultat="divDodajNabavkuMRezultat" asp-action="Dodaj" asp-area="ModulMenadzer">Dodaj nabavku</a>
+    </div>
+    <br />
+    <br />
+    <div id="divDodajNabavkuMRezultat"></div>
+    <br />
+
+    <br />
+
+
+
+    <script>
+        $('.collapse').on('show.bs.collapse', function () {
+            $('.collapse.in').collapse('hide');
+
+
+        });
+        $("#delBM").click(function (event) {
+            event.stopPropagation();
+        });
+        $("#zakljBM").click(function (event) {
+            event.stopPropagation();
+        });
+        $("a[ajax-poziv='da']").click(function (event) {
+            $(this).attr("ajax-poziv", "dodan");
+            event.preventDefault();
+            var urlZaPoziv1 = $(this).attr("ajax-url");
+            var urlZaPoziv2 = $(this).attr("href");
+            var divZaRezultat = $(this).attr("ajax-rezultat");
+
+            var urlZaPoziv;
+
+            if (urlZaPoziv1 instanceof String)
+                urlZaPoziv = urlZaPoziv1;
+            else
+                urlZaPoziv = urlZaPoziv2;
+
+            $.get(urlZaPoziv, function (data, status) {
+                $("#" + divZaRezultat).html(data);
+            });
+        });</script>
+</body>
+</html>
+

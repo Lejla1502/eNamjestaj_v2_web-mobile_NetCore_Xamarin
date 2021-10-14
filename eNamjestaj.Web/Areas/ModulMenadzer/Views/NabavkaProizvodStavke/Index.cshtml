@@ -1,0 +1,195 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.NabavkaProizvodStavkeIndexVM
+
+@{
+    // Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Index</title>
+
+        
+       
+    </head>
+    <body>
+        @if (Model != null)
+        {
+            <input id="inputId" type="hidden" asp-for="@Model.BrReda" />
+            //<input id="brojStavki" asp-for="@Model.BrStavki" readonly />
+    <div class="card-body">
+        <div class="table-responsive table-borderless">
+            <table id="tblStavkePro" class=" table" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Proizvod</th>
+                        <th>Cijena</th>
+                        <th>Nabavna kolicina</th>
+                        <th>Kolicina na skladistu</th>
+                        <th>Total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var x in Model.StavkeNabavke)
+                    {
+                        <tr>
+                            <td>@x.Proizvod</td>
+                            <td>@x.Cijena</td>
+                            <td>@x.Kol</td>
+                            <td>@x.KolNaSkladistu</td>
+                            <td>@x.Total</td>
+                            @if (!Model.Zakljucena)
+                            {
+                                <td>
+                                 
+                                        <a id="delStavka" class="delete" ajax-poziv="da" ajax-rezultat="@Model.NabavkaId.ToString()" asp-route-id="@x.Id" asp-route-idNabavka="@Model.NabavkaId" asp-action="Obrisi" asp-area="ModulMenadzer">
+                                            <i class="fa fa-trash"></i>
+                                        </a>
+                                  
+                                </td>
+                            }
+                        </tr>
+                    }
+                    @if (!Model.Zakljucena)
+                    {
+                        <tr class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#dodajStavkuNabavke">
+                            <td colspan="5">
+                                <a ajax-poziv="da" ajax-rezultat="@Model.NabavkaId.ToString()" asp-route-id="@Model.NabavkaId" asp-action="Dodaj" asp-area="ModulMenadzer">+Dodaj</a>
+
+                            </td>
+                        </tr>
+
+                        <tr class="hide-table-padding">
+                            <td colspan="5">
+                                <div id="@Model.NabavkaId.ToString()" class="collapse in p-3">
+                                    <div id="nabDiv"></div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+       
+                @if (!Model.Zakljucena && Model.BrStavki > 0)
+                {<a class="btn btn-secondary" id="zakljuciId" 
+                    asp-action="Zakljuci" asp-route-id="@Model.NabavkaId" asp-controller="NabavkaProizvod" asp-area="ModulMenadzer">Zakljuci nabavku</a>
+                    }
+           
+
+    </div>
+        }
+
+            <script>
+
+        $("#gotovoId").click(function () {
+            var num_row = $('input#inputId').val();
+            var brStavki = $('table#tblStavkePro tr:last').index() - 1;
+            if (brStavki > 0) {
+                var btn=$("#" + num_row).find("td").eq(7).find("#zakljB");
+                btn.show();
+            }
+
+           // $("#" + idReda).load(location.href + "#"+idReda);
+        });
+
+               
+
+            //var brStavki = $('table#tblStavkePro tr:last').index() - 1;
+            //if (brStavki == 1) {
+            //    var btn = $("#" + num_row).find("td").eq(7).find("#zakljB");
+            //    btn.hide();
+
+
+
+        //table on change prebrojai redovi i izmijeniti par br stavki
+
+        //$('#tblStavkePro').on('change', 'input', function () {
+
+        //    var brStavki = $('table#tblStavkePro tr:last').index() - 1;
+        //    var num_row = $('input#inputId').val();
+        //    var btn = $("#" + num_row).find("td").eq(7).find("#zakljB");
+        //    alert("jdnfjdn");
+
+
+        //    //var row = $(this).closest('tr');
+        //    //var total = 0;
+        //    //$('input', row).each(function () {
+        //    //    total += Number($(this).val());
+        //    //});
+        //    //$('.total', row).text(total);
+        //});
+
+
+        //$(document).ready(function () {
+        //    //var tavleVal = document.getElementById("tblStavkePro");
+        //    var brStavki = $("#tblStavkePro > tbody").children.length - 2; //$('table#tblStavkePro tr:last').index() + 1;
+
+        //    //alert(brStavki);
+        //    if (brStavki == 1) {
+        //        //alert(brStavki);
+        //        var id = $('input#inputId').val();
+
+        //        //var aEl1 = $("#" + id).find("td").eq(7).find("#zakljB");
+        //        //aEl1.show();
+        //        //alert(aEl);
+        //    }
+        //    if (brStavki == 0) {
+        //       // alert(brStavki);
+        //        var id = $('input#inputId').val();
+
+        //        //var aEl2 = $("#" + id).find("td").eq(7).find("#zakljB");
+        //        //aEl2.hide();
+        //    }
+        //});
+
+               /* $("#delStavka").click(function (event) {
+                    $(this).attr("ajax-poziv", "dodan");
+                    event.preventDefault();
+                    var urlZaPoziv1 = $(this).attr("ajax-url");
+                    var urlZaPoziv2 = $(this).attr("href");
+                    var divZaRezultat = $(this).attr("ajax-rezultat");
+
+                    var urlZaPoziv;
+
+                    if (urlZaPoziv1 instanceof String)
+                        urlZaPoziv = urlZaPoziv1;
+                    else
+                        urlZaPoziv = urlZaPoziv2;
+
+
+                    var num_row = $('input#inputId').val();
+                    var brStavki = $('table#tblStavkePro tr:last').index() - 1;
+                    if (brStavki > 1)
+                    {
+                        $.get(urlZaPoziv, function (data, status) {
+                            $("#" + divZaRezultat).html(data);
+                        });
+                    }
+                    
+
+                });*/
+        $("a[ajax-poziv='da']").click(function (event) {
+            $(this).attr("ajax-poziv", "dodan");
+            event.preventDefault();
+            var urlZaPoziv1 = $(this).attr("ajax-url");
+            var urlZaPoziv2 = $(this).attr("href");
+            var divZaRezultat = $(this).attr("ajax-rezultat");
+
+            var urlZaPoziv;
+
+            if (urlZaPoziv1 instanceof String)
+                urlZaPoziv = urlZaPoziv1;
+            else
+                urlZaPoziv = urlZaPoziv2;
+
+            $.get(urlZaPoziv, function (data, status) {
+                $("#" + divZaRezultat).html(data);
+            });
+        });</script>
+        </body>
+</html>

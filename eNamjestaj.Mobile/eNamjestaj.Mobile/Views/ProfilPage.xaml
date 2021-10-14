@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:vm="clr-namespace:eNamjestaj.Mobile.ViewModels"
+             x:Class="eNamjestaj.Mobile.Views.ProfilPage"
+              Title="Profil">
+    <ContentPage.BindingContext>
+        <vm:ProfilViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowSpacing="10">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+
+        </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                    <Image Source="user.png" VerticalOptions="Center" HeightRequest="64" />
+                    
+                </ContentView>
+                <Label Text="{Binding ImePrezime}" TextColor="Black" FontSize="Medium" VerticalTextAlignment="Center"  FontAttributes="Bold"></Label>
+            </StackLayout>
+        </StackLayout>
+        <ScrollView Grid.Row="1" VerticalOptions="FillAndExpand" Margin="0,30,0,0">
+
+            <StackLayout Orientation="Vertical" Padding="15" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label    Padding="0,10,0,0" FontSize="18" HorizontalOptions="Center" Text="Korisnicko ime:" FontAttributes="Bold"></Label>
+                <Label    Padding="0,10,0,0" FontSize="18" HorizontalOptions="Center" Text="{Binding KorisnickoIme}" ></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label    Padding="0,10,0,0" FontSize="18" HorizontalOptions="Center" Text="Email:" FontAttributes="Bold"></Label>
+                    <Label    Padding="0,10,0,0" FontSize="18" HorizontalOptions="Center" Text="{Binding Email}" ></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label    Padding="0,10,0,0" FontSize="18" HorizontalOptions="Center" Text="Opstina:" FontAttributes="Bold"></Label>
+                    <Label    Padding="0,10,0,0" FontSize="18" HorizontalOptions="Center" Text="{Binding OpstinaProp}" ></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label    Padding="0,10,0,0" FontSize="18" HorizontalOptions="Center" Text="Adresa:" FontAttributes="Bold"></Label>
+                    <Label    Padding="0,10,0,0" FontSize="18" HorizontalOptions="Center" Text="{Binding Adresa}" ></Label>
+                </StackLayout>
+
+
+                
+
+
+            <!--<Button   TextColor="White" BackgroundColor="#2193f3" Text="Follow" Margin="0,20,0,2" FontAttributes="Bold" FontSize="17" HeightRequest="45"/>-->
+
+               
+            </StackLayout>
+
+        </ScrollView>
+        <StackLayout Grid.Row="2" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button  Text="Uredi profil" Margin="0,20,0,2" FontAttributes="Bold" FontSize="17" HeightRequest="45"
+                            
+                        Command="{Binding UrediCommand}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" />
+        </StackLayout>
+
+    </Grid>
+
+
+    <!-- <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+                <Entry  Text="{Binding Ime}"></Entry>
+                <Entry  Text="{Binding Prezime}"></Entry>
+
+                <Entry  Text="{Binding KorisnickoIme}"></Entry>
+                <Entry  Text="{Binding Email}"></Entry>
+                <Label Text="Odaberi opstinu"></Label>
+                <Picker ItemsSource="{Binding OpstinaList}" SelectedItem="{Binding SelectedOpstina}" ItemDisplayBinding="{Binding Naziv}"></Picker>
+                <Label Text="Addresa"></Label>
+                <Entry Placeholder="Adresa" Text="{Binding Adresa}"></Entry>
+
+
+                <Button Text="Registriraj se" Command="{Binding RegisterCommand}"></Button>
+            </StackLayout> -->
+
+    
+    
+</ContentPage>

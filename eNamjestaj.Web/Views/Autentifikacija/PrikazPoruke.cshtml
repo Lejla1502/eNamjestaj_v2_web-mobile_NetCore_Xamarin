@@ -1,0 +1,64 @@
+﻿
+@{
+    Layout ="_LayoutAuth";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"] - eNamjestaj.Web</title>
+
+    <title>PrikazPoruke</title>
+
+    <style>
+       
+        body {
+            background-size: 100% 100%;
+            background-image: url('/assets/img/abstract-blur-living-room-interior.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .bg-text {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+        p, h3 {
+            text-align: center;
+        }
+
+        p {
+            padding-top: 20px;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    
+        
+            <div class="container-fluid">
+
+                <div class="center-screen">
+                    <div  class="bg-text">
+
+                        <h3 >Dobro došli na sistem e-Prodaja namještaja. </h3>
+                        <p >
+                            <a class="btn btn-outline-dark" style="color:steelblue; font-size:20px;" href="/Autentifikacija/Index" >Login </a> 
+                            @*<a style="color:cadetblue" href="/Autentifikacija/Registracija" > Registracija </a>*@
+
+                        </div>
+                </div>
+            </div>
+        
+        
+        @*<h3>Želimo vam dobrodošlicu na sistem ONLINE PRODAJA NAMJEŠTAJA. </h3>*@
+
+</body>
+</html>

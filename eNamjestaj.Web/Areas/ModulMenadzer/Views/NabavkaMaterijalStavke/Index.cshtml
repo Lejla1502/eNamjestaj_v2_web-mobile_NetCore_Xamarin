@@ -1,0 +1,98 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.NabavkaMaterijalStavkeIndexVM
+
+@{
+    // Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+    <div class="card-body">
+        <div class="table-responsive table-borderless">
+            <table class=" table" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Materijal</th>
+                        <th>Cijena</th>
+                        <th>Nabavna kolicina</th>
+                        <th>Kolicina na skladistu</th>
+                        <th>Total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var x in Model.MaterijalStavkeNabavke)
+                    {
+                        <tr>
+                            <td>@x.Materijal</td>
+                            <td>@x.Cijena</td>
+                            <td>@x.Kol</td>
+                            <td>@x.KolNaSkladistu</td>
+                            <td>@x.Total</td>
+                            @if (!Model.Zakljucena)
+                            {
+                                <td>
+                                    <a ajax-poziv="da" ajax-rezultat="@Model.NabavkaId.ToString()" asp-route-id="@x.Id" asp-route-idNabavka="@Model.NabavkaId" asp-action="Obrisi" asp-area="ModulMenadzer">
+                                        <i class="fa fa-trash"></i>
+                                    </a>
+                                </td>
+                            }
+                        </tr>
+                    }
+                    @if (!Model.Zakljucena)
+                    {
+                        <tr class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#dodajMatStavkuNabavke">
+                            <td colspan="5">
+                                <a ajax-poziv="da" ajax-rezultat="@Model.NabavkaId.ToString()" asp-route-id="@Model.NabavkaId" asp-action="Dodaj" asp-area="ModulMenadzer">+Dodaj</a>
+                            </td>
+                        </tr>
+                        <tr class="hide-table-padding">
+                            <td colspan="5">
+                                <div id="@Model.NabavkaId.ToString()" class="collapse in p-3">
+                                    <div id="nabMDiv"></div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        
+        @if (!Model.Zakljucena && Model.BrStavki > 0)
+        {
+            <a id="zakljMatStId" class="btn btn-secondary" asp-action="Zakljuci" asp-route-id="@Model.NabavkaId" 
+               asp-controller="NabavkaMaterijal" asp-area="ModulMenadzer">Zakljuci nabavku</a>
+            
+        }
+
+
+    </div>
+
+
+    <script>
+        $("a[ajax-poziv='da']").click(function (event) {
+            $(this).attr("ajax-poziv", "dodan");
+            event.preventDefault();
+            var urlZaPoziv1 = $(this).attr("ajax-url");
+            var urlZaPoziv2 = $(this).attr("href");
+            var divZaRezultat = $(this).attr("ajax-rezultat");
+
+            var urlZaPoziv;
+
+            if (urlZaPoziv1 instanceof String)
+                urlZaPoziv = urlZaPoziv1;
+            else
+                urlZaPoziv = urlZaPoziv2;
+
+            $.get(urlZaPoziv, function (data, status) {
+                $("#" + divZaRezultat).html(data);
+            });
+        });</script>
+</body>
+</html>

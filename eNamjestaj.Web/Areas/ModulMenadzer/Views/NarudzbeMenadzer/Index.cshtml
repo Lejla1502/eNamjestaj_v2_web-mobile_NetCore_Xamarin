@@ -1,0 +1,105 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.NarudzbeMenadzerIndexVM
+@{
+    //Layout = null;
+}
+
+<body>
+    <h1>Pregled narudžbi</h1>
+    <br />
+    <div>
+        <form action="/ModulMenadzer/NarudzbeMenadzer/Index" class=" form-inline">
+            <div class="form-group">
+                <label for="DatumPretraga">Datum:</label>
+
+                <input id="DatumPretraga" placeholder="Odaberi datum" asp-for="DatumPretraga"
+                       type="date" style="margin-left:10px; margin-right:15px; width:200px !important;" class="form-control ">
+                @*@Html.TextBox("DatumPretraga", null, new { @class = "form-control datepicker " })*@
+
+                @*@Html.LabelFor(model => model.DatumPretraga, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <!--<div class="col-md-10">-->
+                @*@Html.EditorFor(model => model.DatumPretraga, new { htmlAttributes = new { @class = "form-control", placeholder = "Odaberi datum", @readonly = "true" } })*@
+                @*@Html.ValidationMessageFor(model => model.DatumPretraga ,"", new { @class = "text-danger" })*@
+                <!--</div>-->
+            </div>
+            <br />
+            <input type="submit" value="Pretraga"style="margin-right:15px;" class="btn btn-primary" />
+            <a href="/ModulMenadzer/NarudzbeMenadzer/Index?DatumPretraga=null" class="btn btn-dark ">
+                Resetuj datum
+            </a>
+
+        </form>
+      </div>
+        <br />
+
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class=" table table-bordered" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Ime</th>
+                            <th>Prezime</th>
+                            <th>Datum narudzbe</th>
+                            <th>Broj narudzbe</th>
+                           
+
+                            <th>Akcija</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var x in Model.Narudzbe)
+                        {
+                            <tr>
+                                <td>@x.Ime</td>
+                                <td>@x.Prezime</td>
+                                <td>@x.DatumNarudzbe</td>
+                                <td>@x.BrojNarudzbe</td>
+                                
+
+                                <td>
+
+                                    @*<a class="btn btn-danger" asp-action="Obrisi" asp-route-id="@x.Id" asp-area="ModulMenadzer">Obrisi</a>*@
+                                    <a class="btn btn-warning" ajax-poziv="da" ajax-rezultat="divNarudzbeMenadzerRezultat" asp-action="Detalji" asp-route-id="@x.Id" asp-area="ModulMenadzer">Procesiraj</a>
+
+                                </td>
+                            </tr>
+}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <br />
+        <br />
+        <div id="divNarudzbeMenadzerRezultat"></div>
+        <br />
+
+        <br />
+
+
+        <script>
+    $("a[ajax-poziv='da']").click(function (event) {
+                $(this).attr("ajax-poziv", "dodan");
+                event.preventDefault();
+                var urlZaPoziv1 = $(this).attr("ajax-url");
+                var urlZaPoziv2 = $(this).attr("href");
+                var divZaRezultat = $(this).attr("ajax-rezultat");
+
+                var urlZaPoziv;
+
+                if (urlZaPoziv1 instanceof String)
+                    urlZaPoziv = urlZaPoziv1;
+                else
+                    urlZaPoziv = urlZaPoziv2;
+
+                $.get(urlZaPoziv, function (data, status) {
+                    $("#" + divZaRezultat).html(data);
+                });
+            });</script>
+</body>
+
+
+
+
+
+

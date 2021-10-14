@@ -1,0 +1,93 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.NormativStavkeIndexVM
+@{
+    ///Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+    <div class="card-body">
+        @*<input type="hidden" asp-for="NormativID" />*@
+        <div class="table-responsive table-borderless">
+            <table class=" table" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Naziv materijala</th>
+                        <th>Sifra</th>
+                        <th>Kol</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var x in Model.StavkeNormativa)
+                    {
+                        <tr>
+                            <td>@x.NazivMaterijala</td>
+                            <td>@x.Sifra</td>
+                            <td>@x.Kol</td>
+
+                            @if (!Model.NormativZakljucen)
+                            {
+                                <td>
+                                    <a ajax-poziv="da" ajax-rezultat="@Model.NormativID.ToString()" asp-route-id="@x.Id" asp-route-idNormativ="@Model.NormativID" asp-action="Obrisi" asp-area="ModulMenadzer">
+                                        <i class="fa fa-trash"></i>
+                                    </a>
+
+                                </td>
+                            }
+
+                        </tr>
+                    }
+                    @if (!Model.NormativZakljucen)
+                    {
+                        <tr class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#dodajStavkuNormativa">
+                            <td colspan="3">
+                                <a ajax-poziv="da" ajax-rezultat="@Model.NormativID.ToString()" asp-route-id="@Model.NormativID" asp-action="Dodaj" asp-area="ModulMenadzer">+Dodaj</a>
+                            </td>
+                        </tr>
+                        <tr class="hide-table-padding">
+                            <td colspan="4">
+                                <div id="@Model.NormativID.ToString()" class="collapse in p-3">
+                                    <div id="normDiv"></div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        @if (!Model.NormativZakljucen && Model.BrStavki>0)
+        {<a id="aZakljuciID" class="btn btn-secondary" asp-action="Zakljuci" 
+            asp-controller="Normativ" asp-route-id="@Model.NormativID" asp-area="ModulMenadzer">Zakljuci normativ</a>}
+
+    </div>
+    
+
+    <script>
+        $("a[ajax-poziv='da']").click(function (event) {
+            $(this).attr("ajax-poziv", "dodan");
+            event.preventDefault();
+            var urlZaPoziv1 = $(this).attr("ajax-url");
+            var urlZaPoziv2 = $(this).attr("href");
+            var divZaRezultat = $(this).attr("ajax-rezultat");
+
+            var urlZaPoziv;
+
+            if (urlZaPoziv1 instanceof String)
+                urlZaPoziv = urlZaPoziv1;
+            else
+                urlZaPoziv = urlZaPoziv2;
+
+            $.get(urlZaPoziv, function (data, status) {
+                $("#" + divZaRezultat).html(data);
+            });
+        });</script>
+</body>
+</html>

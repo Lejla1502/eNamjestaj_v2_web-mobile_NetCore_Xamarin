@@ -1,0 +1,55 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.NormativDodajVM
+
+@{
+    //Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dodaj</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+</head>
+<body>
+    <div class="col-lg-8">
+        <form id="dodajNoviNormativ" asp-action="Snimi" asp-controller="Normativ" asp-area="ModulMenadzer" method="post">
+
+
+
+            <div class="form-group">
+                <label>Proizvod: </label>
+
+                <div>
+                    <select class="form-control" asp-for="ProizvodID" asp-items="@Model.Proizvodi">
+                        <option value=""></option>
+                    </select>
+
+                    <span asp-validation-for="ProizvodID" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+
+            <br />
+            <br />
+            <input id="submitButton" type="submit" value="Snimi" class="btn btn-primary" />
+
+        </form>
+    </div>
+
+    <script>
+        $(function () {
+        
+            jQuery.validator.unobtrusive.parse();
+
+            jQuery.validator.unobtrusive.parse("#dodajNoviNormativ");
+        });
+    </script>
+</body>
+</html>

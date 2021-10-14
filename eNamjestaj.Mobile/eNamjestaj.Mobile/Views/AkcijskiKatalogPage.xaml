@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:eNamjestaj.Mobile.ViewModels"
+             x:Class="eNamjestaj.Mobile.Views.AkcijskiKatalogPage">
+    <ContentPage.BindingContext>
+        <vm:AkcijskiKatalogViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Proizvodi"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <StackLayout Orientation="Horizontal" >
+                <Picker Margin="5,0,0,0" WidthRequest="160"  ItemsSource="{Binding VrstaProizvodaList}" SelectedItem="{Binding SelectedVrstaProizvoda}" ItemDisplayBinding="{Binding Naziv}"></Picker>
+                <Picker Margin="5,0,0,0" WidthRequest="160"  ItemsSource="{Binding BojaProizvodaList}" SelectedItem="{Binding SelectedBojaProizvoda}" ItemDisplayBinding="{Binding Naziv}"></Picker>
+                <Button  Text="Pretraga" FontAttributes="Bold"
+                            
+                        Command="{Binding PretragaCommand}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" />
+            </StackLayout>
+            <!--<Picker ItemsSource="{Binding VrstaProizvodaList}" SelectedItem="{Binding SelectedVrstaProizvoda}" ItemDisplayBinding="{Binding Naziv}"></Picker>-->
+            <ListView ItemsSource="{Binding ProizvodList}" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10" Orientation="Horizontal">
+                                <StackLayout Orientation="Horizontal" HeightRequest="48" Grid.Column="0">
+                                    <Image Source="{Binding Slika}" WidthRequest="72" Aspect="Fill"></Image>
+
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical">
+                                    <StackLayout Orientation="Horizontal">
+                                       
+                                        <Label Text="{Binding Naziv}" 
+                                       LineBreakMode="NoWrap" 
+                                       Style="{DynamicResource ListItemTextStyle}" 
+                                       FontSize="16" />
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="Sifra: " 
+                                       LineBreakMode="NoWrap" 
+                                       Style="{DynamicResource ListItemTextStyle}" 
+                                       FontSize="16" />
+                                        <Label Text="{Binding Sifra}" 
+                                       LineBreakMode="NoWrap"
+                                       Style="{DynamicResource ListItemDetailTextStyle}"
+                                       FontSize="13" />
+                                    </StackLayout>
+
+                                   
+
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="Popust: " 
+                                       LineBreakMode="NoWrap" 
+                                       Style="{DynamicResource ListItemTextStyle}" 
+                                       FontSize="16" />
+                                        <Label Text="{Binding Popust, StringFormat=' {0} %'}" 
+                                       LineBreakMode="NoWrap"
+                                       Style="{DynamicResource ListItemDetailTextStyle}"
+                                       FontSize="13" />
+                                    </StackLayout>
+
+                                   
+                                </StackLayout>
+
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer 
+                                NumberOfTapsRequired="1"
+                                Command="{Binding  Source={RelativeSource AncestorType={x:Type vm:AkcijskiKatalogViewModel}}, Path=StavkaKatalogTapped}"		
+                                CommandParameter="{Binding .}">
+                                    </TapGestureRecognizer>
+                                </StackLayout.GestureRecognizers>
+
+                            </StackLayout>
+                            
+                            
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

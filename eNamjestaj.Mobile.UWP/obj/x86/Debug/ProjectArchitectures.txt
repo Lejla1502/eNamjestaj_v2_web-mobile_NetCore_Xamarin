@@ -1,0 +1,1 @@
+C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\eNamjestaj.Mobile.UWP.csproj;x86

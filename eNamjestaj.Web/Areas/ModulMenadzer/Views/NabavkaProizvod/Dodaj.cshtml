@@ -1,0 +1,63 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.NabavkaProizvodDodajVM
+
+@{ //Layout = null;
+   }
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dodaj</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+</head>
+<body>
+    <div class="col-lg-8">
+        <form id="dodajNovuNabavku" asp-action="Snimi" asp-controller="NabavkaProizvod" asp-area="ModulMenadzer" method="post">
+
+            <input type="hidden" asp-for="SkladisteId">
+
+           
+
+            <div class="form-group">
+                <label>Skladiste: </label>
+
+                <div>
+
+                    <input asp-for="Skladiste" class="form-control" readonly />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Dobavljac: </label>
+
+                <div>
+                    <select class="form-control" asp-for="DobavljacID" asp-items="@Model.Dobavljaci">
+                        <option value=""></option>
+                    </select>
+
+                    <span asp-validation-for="DobavljacID" class="text-danger"></span>
+                </div>
+            </div>
+
+            
+
+            <br />
+            <br />
+            <input id="submitButton" type="submit" value="Snimi" class="btn btn-primary" />
+
+        </form>
+    </div>
+
+    <script>$(function () {
+
+            jQuery.validator.unobtrusive.parse();
+
+    jQuery.validator.unobtrusive.parse("#dodajNovuNabavku");
+        });</script>
+</body>
+</html>
+

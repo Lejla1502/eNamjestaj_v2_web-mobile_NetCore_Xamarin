@@ -1,0 +1,51 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.PodkategorijaDodajVM
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<h2>Dodaj podkategoriju</h2>
+<div class="col-lg-8">
+    <form id="dodajPodkategoriju" ajax-poziv="da" ajax-rezultat="divKategorijerezultat" asp-action="Snimi" asp-controller="Podkategorija" asp-area="ModulMenadzer" method="post" enctype="multipart/form-data">
+        @*<input type="hidden" value="@Model.ProizvodId" name="ProizvodId" id="prID" />*@
+        <div class="form-group">
+            <label>Naziv podkategorije: </label>
+            <div>
+                <input asp-for="Naziv" class="form-control" />
+                <span asp-validation-for="Naziv" class="text-danger"></span>
+            </div>
+        </div>
+
+
+        <br />
+        <br />
+        <input id="submitButton" type="submit" value="Snimi" class="btn btn-primary" />
+
+    </form>
+</div>
+<script>
+    $("form[ajax-poziv='da']").submit(function (event) {
+        $(this).attr("ajax-poziv", "dodan");
+        event.preventDefault();
+        var urlZaPoziv1 = $(this).attr("ajax-url");
+        var urlZaPoziv2 = $(this).attr("action");
+        var divZaRezultat = $(this).attr("ajax-rezultat");
+
+        var urlZaPoziv;
+        if (urlZaPoziv1 instanceof String)
+            urlZaPoziv = urlZaPoziv1;
+        else
+            urlZaPoziv = urlZaPoziv2;
+
+        var form = $(this);
+
+        $.ajax({
+            type: "POST",
+            url: urlZaPoziv,
+            data: form.serialize(),
+            success: function (data) {
+                $("#" + divZaRezultat).html(data);
+            }
+        });
+    });
+</script>
+

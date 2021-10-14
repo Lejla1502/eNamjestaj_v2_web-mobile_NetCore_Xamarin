@@ -1,0 +1,27 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.KategorijaUrediVM
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<h2>Uredi kategoriju</h2>
+
+<div class="col-lg-8">
+    <form id="izmijeniPostojecuKat" asp-action="SnimiPostojecuKat" asp-controller="Kategorija" asp-area="ModulMenadzer" method="post" enctype="multipart/form-data">
+        <input type="hidden" value="@Model.KategorijaID" name="KategorijaId" id="katID" />
+        <div class="form-group">
+            <label>Naziv: </label>
+            <div>
+                <input asp-for="Naziv" class="form-control" />
+                <span asp-validation-for="Naziv" class="text-danger"></span>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <input id="submitButton" type="submit" value="Snimi" class="btn btn-primary" />
+
+
+
+    </form>
+
+</div>

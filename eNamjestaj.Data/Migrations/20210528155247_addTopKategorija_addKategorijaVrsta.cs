@@ -1,0 +1,69 @@
+﻿using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
+
+namespace eNamjestaj.Data.Migrations
+{
+    public partial class addTopKategorija_addKategorijaVrsta : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.CreateTable(
+                name: "TopKategorija",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Naziv = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_TopKategorija", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "KategorijaVrsta",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    TopKategorijaId = table.Column<int>(nullable: false),
+                    VrstaProizvodaId = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_KategorijaVrsta", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_KategorijaVrsta_TopKategorija_TopKategorijaId",
+                        column: x => x.TopKategorijaId,
+                        principalTable: "TopKategorija",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_KategorijaVrsta_VrstaProizvoda_VrstaProizvodaId",
+                        column: x => x.VrstaProizvodaId,
+                        principalTable: "VrstaProizvoda",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_KategorijaVrsta_TopKategorijaId",
+                table: "KategorijaVrsta",
+                column: "TopKategorijaId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_KategorijaVrsta_VrstaProizvodaId",
+                table: "KategorijaVrsta",
+                column: "VrstaProizvodaId");
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropTable(
+                name: "KategorijaVrsta");
+
+            migrationBuilder.DropTable(
+                name: "TopKategorija");
+        }
+    }
+}

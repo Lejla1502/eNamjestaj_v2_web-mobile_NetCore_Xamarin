@@ -1,0 +1,164 @@
+﻿@model eNamjestaj.Web.Areas.ModulMenadzer.ViewModels.NormativIndexVM
+@{
+   // Layout = null;
+}
+
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <link rel="stylesheet" href="https://maxcdn.​bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <style>
+        tr.hide-table-padding td {
+            padding: 0;
+        }
+      
+        /*.expand-button {
+            position: relative;
+        }
+
+        .accordion-toggle .expand-button:after  {
+            position: absolute;
+            left: .75rem;
+            top: 50%;
+            transform: translate(0, -50%);
+            content: '-';
+        }
+
+        .accordion-toggle.collapsed .expand-button:after {
+            content: '+';
+        }*/
+    </style>
+</head>
+<body>
+    <h1>Pregled normativa</h1>
+    <br />
+    <form action="/ModulMenadzer/Normativ/Index" class=" form-inline">
+
+        <div class="form-group">
+            <label for="DatumPretraga">Datum:</label>
+
+            <input id="DatumPretraga" placeholder="Odaberi datum" asp-for="DatumPretraga"
+                   type="date" style="margin-left:10px; margin-right:15px; width:200px !important;" class="form-control ">
+           
+        </div>
+        <br />
+        <input type="submit" value="Pretraga" style="margin-right:15px;" class="btn btn-primary" />
+        <a href="/ModulMenadzer/Normativ/Index?DatumPretraga=null" class="btn btn-dark ">
+            Resetuj datum
+        </a>
+
+    </form>
+    <br />
+
+
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class=" table table-bordered" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Broj</th>
+                        <th>Naziv proizvoda</th>
+                        <th>Datum</th>
+                        <th>Zakljucen</th>
+                        <th>Akcija</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var x in Model.Normativi)
+                    {
+                        <tr class="accordion-toggle collapsed panel-group" id="@x.BrojNorm" data-toggle="collapse" data-parent="#@x.BrojNorm" href="#@x.Id.ToString()">
+                            <td >
+                                <a  class="btn more-info" ajax-poziv="da" ajax-rezultat="@x.Id.ToString()" asp-action="Index"
+                                   asp-route-id="@x.Id" asp-controller="NormativStavke" asp-area="ModulMenadzer">
+                                <i class=" fa fa-caret-down"></i> Stavke</a>
+                            </td>
+                            <td>@x.BrojNorm</td>
+                            <td>@x.NazivProizvoda</td>
+                            <td>@x.Datum.ToShortDateString()</td>
+                            <td>@(x.Zakljucen?"Da":"Ne")</td>
+                            <td>
+
+
+                                @if (!x.Zakljucen)
+                                {<a id="aObrisiID" class="btn btn-danger" asp-action="Obrisi" asp-route-id="@x.Id" asp-area="ModulMenadzer">Obrisi</a>
+                                    
+                                }
+                                @*<a class="btn btn-warning" ajax-poziv="da" ajax-rezultat="divDodajNormativrezultat" asp-action="Uredi" asp-route-id="@x.Id" asp-controller="NormativStavke" asp-area="ModulMenadzer">Uredi</a>*@
+                            </td>
+                        </tr>
+                        <tr class="hide-table-padding">
+                            <td></td>
+                            <td colspan="5">
+                                <div id="@x.Id.ToString()" class="collapse in p-lg-3">
+                                    <div id="nekiDiv"></div>
+
+                                </div>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <a class="btn btn-success" ajax-poziv="da" ajax-rezultat="divDodajNormativrezultat" asp-action="Dodaj"  asp-area="ModulMenadzer">Dodaj normativ</a>
+    </div>
+    <br />
+    <br />
+    <div id="divDodajNormativrezultat"></div>
+    <br />
+
+    <br />
+
+
+
+
+
+    <script>
+        $('.collapse').on('show.bs.collapse', function () {
+            $('.collapse.in').collapse('hide');
+
+           
+        });
+        
+        $("#aObrisiID").click(function (event) {
+            event.stopPropagation();
+        });
+        //$("#aZakljuciID").click(function (event) {
+          //  event.stopPropagation();
+        //});
+
+      
+        $("a[ajax-poziv='da']").click(function (event) {
+                    $(this).attr("ajax-poziv", "dodan");
+                    event.preventDefault();
+                    var urlZaPoziv1 = $(this).attr("ajax-url");
+                    var urlZaPoziv2 = $(this).attr("href");
+                    var divZaRezultat = $(this).attr("ajax-rezultat");
+
+                    var urlZaPoziv;
+
+                    if (urlZaPoziv1 instanceof String)
+                        urlZaPoziv = urlZaPoziv1;
+                    else
+                        urlZaPoziv = urlZaPoziv2;
+
+                    $.get(urlZaPoziv, function (data, status) {
+                        $("#" + divZaRezultat).html(data);
+                    });
+                });</script>
+</body>
+</html>

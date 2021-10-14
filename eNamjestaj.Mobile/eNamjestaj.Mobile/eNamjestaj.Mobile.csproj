@@ -1,0 +1,148 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="carts.png" />
+    <None Remove="images\banner1.svg" />
+    <None Remove="images\banner2.svg" />
+    <None Remove="images\banner3.svg" />
+    <None Remove="images\banner4.svg" />
+    <None Remove="images\Namjestaj\15899712818211362962276.jpg" />
+    <None Remove="images\Namjestaj\3d-rendering-minimal-interior-design-260nw-1588800826.jpg" />
+    <None Remove="images\Namjestaj\black.png" />
+    <None Remove="images\Namjestaj\garderoba-ph120-313799.jpg" />
+    <None Remove="images\Namjestaj\garderoba-ph124-315706.jpg" />
+    <None Remove="images\Namjestaj\garderoba-ph23-214003.jpg" />
+    <None Remove="images\Namjestaj\garderoba-ph94-233828.jpg" />
+    <None Remove="images\Namjestaj\garderoba-pk125-226166.jpg" />
+    <None Remove="images\Namjestaj\komoda-bdj4-257361.jpg" />
+    <None Remove="images\Namjestaj\komoda-cab2-70057.jpg" />
+    <None Remove="images\Namjestaj\komoda-pd240-227711.jpg" />
+    <None Remove="images\Namjestaj\komoda-pk2-320347.jpg" />
+    <None Remove="images\Namjestaj\komoda-pk33-320947.jpg" />
+    <None Remove="images\Namjestaj\krevet-caa5-70018.jpg" />
+    <None Remove="images\Namjestaj\krevet-lvb23-20250.jpg" />
+    <None Remove="images\Namjestaj\krevet-maa3-77417.jpg" />
+    <None Remove="images\Namjestaj\krevet-pk295-327260.jpg" />
+    <None Remove="images\Namjestaj\mockupFormaZaPrikazDetaljaProizvoda_validacijaKosare.png" />
+    <None Remove="images\Namjestaj\polica-bc17-129160.jpg" />
+    <None Remove="images\Namjestaj\polica-rc1094-352507.jpg" />
+    <None Remove="images\Namjestaj\polica-rc341-293594.jpg" />
+    <None Remove="images\Namjestaj\stol-aan11-96035.jpg" />
+    <None Remove="images\Namjestaj\stol-c12-225561.jpg" />
+    <None Remove="images\Namjestaj\stol-c74-291357.jpg" />
+    <None Remove="images\Namjestaj\stol-ds1-88059.jpg" />
+    <None Remove="images\Namjestaj\stol-lu53-27296.jpg" />
+    <None Remove="images\Namjestaj\stol-s6421-357389.jpg" />
+    <None Remove="images\Namjestaj\uredski-stol-BGF2-23320.jpg" />
+    <None Remove="images\Namjestaj\zidna-polica-mt332-253231.jpg" />
+    <None Remove="images\Namjestaj\zidna-polica-mt333-253239.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\banner1.svg" />
+    <Content Include="images\banner2.svg" />
+    <Content Include="images\banner3.svg" />
+    <Content Include="images\banner4.svg" />
+    <Content Include="images\Namjestaj\15899712818211362962276.jpg" />
+    <Content Include="images\Namjestaj\3d-rendering-minimal-interior-design-260nw-1588800826.jpg" />
+    <Content Include="images\Namjestaj\black.png" />
+    <Content Include="images\Namjestaj\garderoba-ph120-313799.jpg" />
+    <Content Include="images\Namjestaj\garderoba-ph124-315706.jpg" />
+    <Content Include="images\Namjestaj\garderoba-ph23-214003.jpg" />
+    <Content Include="images\Namjestaj\garderoba-ph94-233828.jpg" />
+    <Content Include="images\Namjestaj\garderoba-pk125-226166.jpg" />
+    <Content Include="images\Namjestaj\komoda-bdj4-257361.jpg" />
+    <Content Include="images\Namjestaj\komoda-cab2-70057.jpg" />
+    <Content Include="images\Namjestaj\komoda-pd240-227711.jpg" />
+    <Content Include="images\Namjestaj\komoda-pk2-320347.jpg" />
+    <Content Include="images\Namjestaj\komoda-pk33-320947.jpg" />
+    <Content Include="images\Namjestaj\krevet-caa5-70018.jpg" />
+    <Content Include="images\Namjestaj\krevet-lvb23-20250.jpg" />
+    <Content Include="images\Namjestaj\krevet-maa3-77417.jpg" />
+    <Content Include="images\Namjestaj\krevet-pk295-327260.jpg" />
+    <Content Include="images\Namjestaj\mockupFormaZaPrikazDetaljaProizvoda_validacijaKosare.png" />
+    <Content Include="images\Namjestaj\polica-bc17-129160.jpg" />
+    <Content Include="images\Namjestaj\polica-rc1094-352507.jpg" />
+    <Content Include="images\Namjestaj\polica-rc341-293594.jpg" />
+    <Content Include="images\Namjestaj\stol-aan11-96035.jpg" />
+    <Content Include="images\Namjestaj\stol-c12-225561.jpg" />
+    <Content Include="images\Namjestaj\stol-c74-291357.jpg" />
+    <Content Include="images\Namjestaj\stol-ds1-88059.jpg" />
+    <Content Include="images\Namjestaj\stol-lu53-27296.jpg" />
+    <Content Include="images\Namjestaj\stol-s6421-357389.jpg" />
+    <Content Include="images\Namjestaj\uredski-stol-BGF2-23320.jpg" />
+    <Content Include="images\Namjestaj\zidna-polica-mt332-253231.jpg" />
+    <Content Include="images\Namjestaj\zidna-polica-mt333-253239.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="carts.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CarouselView.FormsPlugin" Version="6.0.0" />
+    <PackageReference Include="Flurl" Version="3.0.2" />
+    <PackageReference Include="Flurl.Http" Version="3.2.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2083" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />  
+    <PackageReference Include="Xamarin.HotReload" Version="2.0.16" />  
+    <PackageReference Include="Xamarin.Rating" Version="1.0.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\eNamjestaj.Model\eNamjestaj.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\HistorijaNarudzbiPage.xaml.cs">
+      <DependentUpon>HistorijaNarudzbiPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\AkcijskiKatalogProizvodDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\AkcijskiKatalogPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\HistorijaNarudzbiDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\HistorijaNarudzbiPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MainPageDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MainPageFlyout.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\NarudzbaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ProfilEditPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ProfilPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ProizvodDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ProizvodiPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\RegistracijaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

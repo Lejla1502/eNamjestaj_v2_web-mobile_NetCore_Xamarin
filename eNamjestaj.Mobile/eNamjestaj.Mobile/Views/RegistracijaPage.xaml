@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:eNamjestaj.Mobile.ViewModels"
+             x:Class="eNamjestaj.Mobile.Views.RegistracijaPage">
+    <ContentPage.BindingContext>
+        <vm:RegistracijaViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+            <StackLayout  Orientation="Horizontal">
+                <Entry  Placeholder="Ime" Text="{Binding Ime}" WidthRequest="120"></Entry>
+                <Entry Placeholder="Prezime" Text="{Binding Prezime}" HorizontalOptions="FillAndExpand"></Entry>
+            </StackLayout>
+            <Entry Placeholder="Korisnicko ime" Text="{Binding KorisnickoIme}"></Entry>
+            <Entry Placeholder="Email" Text="{Binding Email}"></Entry>
+            <Entry Placeholder="Lozinka" IsPassword="True" Text="{Binding Password}"></Entry>
+            <Entry Placeholder="Potvrda lozinke" IsPassword="True" Text="{Binding PasswordPotvrda}"></Entry>
+            <Entry Placeholder="Spol (M/Z)" Text="{Binding Spol}"></Entry>
+            <Label Text="Odaberi opstinu"></Label>
+            <Picker ItemsSource="{Binding OpstinaList}" SelectedItem="{Binding SelectedOpstina}" ItemDisplayBinding="{Binding Naziv}"></Picker>
+            <Label Text="Adresa"></Label>
+            <Entry Placeholder="Adresa" Text="{Binding Adresa}"></Entry>
+
+
+            <Button Text="Registriraj se" Command="{Binding RegisterCommand}"></Button>
+            <Button Text="Nazad" BackgroundColor="Gray" Command="{Binding NazadCommand}"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

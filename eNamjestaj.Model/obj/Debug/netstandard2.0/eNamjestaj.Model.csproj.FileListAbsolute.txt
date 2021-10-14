@@ -1,0 +1,10 @@
+C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Model\bin\Debug\netstandard2.0\eNamjestaj.Model.deps.json
+C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Model\bin\Debug\netstandard2.0\eNamjestaj.Model.dll
+C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Model\bin\Debug\netstandard2.0\eNamjestaj.Model.pdb
+C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Model\obj\Debug\netstandard2.0\eNamjestaj.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Model\obj\Debug\netstandard2.0\eNamjestaj.Model.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Model\obj\Debug\netstandard2.0\eNamjestaj.Model.AssemblyInfo.cs
+C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Model\obj\Debug\netstandard2.0\eNamjestaj.Model.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Model\obj\Debug\netstandard2.0\eNamjestaj.Model.dll
+C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Model\obj\Debug\netstandard2.0\eNamjestaj.Model.pdb
+C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Model\obj\Debug\netstandard2.0\eNamjestaj.Model.csproj.AssemblyReference.cache
