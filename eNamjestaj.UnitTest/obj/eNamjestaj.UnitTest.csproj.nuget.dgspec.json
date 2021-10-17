@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.UnitTest\\eNamjestaj.UnitTest.csproj": {}
+    "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.UnitTest\\eNamjestaj.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Data\\eNamjestaj.Data.csproj": {
+    "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Data\\eNamjestaj.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Data\\eNamjestaj.Data.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Data\\eNamjestaj.Data.csproj",
         "projectName": "eNamjestaj.Data",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Data\\eNamjestaj.Data.csproj",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Data\\eNamjestaj.Data.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Data\\obj\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -29,6 +29,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3-flatcontainer": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -106,18 +107,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.UnitTest\\eNamjestaj.UnitTest.csproj": {
+    "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.UnitTest\\eNamjestaj.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.UnitTest\\eNamjestaj.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.UnitTest\\eNamjestaj.UnitTest.csproj",
         "projectName": "eNamjestaj.UnitTest",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.UnitTest\\eNamjestaj.UnitTest.csproj",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.UnitTest\\eNamjestaj.UnitTest.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.UnitTest\\obj\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -135,17 +136,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3-flatcontainer": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Data\\eNamjestaj.Data.csproj": {
-                "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Data\\eNamjestaj.Data.csproj"
+              "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Data\\eNamjestaj.Data.csproj": {
+                "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Data\\eNamjestaj.Data.csproj"
               },
-              "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Web\\eNamjestaj.Web.csproj": {
-                "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Web\\eNamjestaj.Web.csproj"
+              "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Web\\eNamjestaj.Web.csproj": {
+                "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Web\\eNamjestaj.Web.csproj"
               }
             }
           }
@@ -229,18 +231,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Web\\eNamjestaj.Web.csproj": {
+    "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Web\\eNamjestaj.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Web\\eNamjestaj.Web.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Web\\eNamjestaj.Web.csproj",
         "projectName": "eNamjestaj.Web",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Web\\eNamjestaj.Web.csproj",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Web\\eNamjestaj.Web.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Web\\obj\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -258,14 +260,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3-flatcontainer": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Data\\eNamjestaj.Data.csproj": {
-                "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Data\\eNamjestaj.Data.csproj"
+              "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Data\\eNamjestaj.Data.csproj": {
+                "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Data\\eNamjestaj.Data.csproj"
               }
             }
           }
@@ -344,6 +347,10 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
             "Microsoft.VisualStudio.Web.BrowserLink": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -375,7 +382,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

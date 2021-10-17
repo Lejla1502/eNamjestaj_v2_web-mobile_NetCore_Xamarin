@@ -1,0 +1,34 @@
+version: '3.4'
+
+services:
+  enamjestaj-sql:
+    image: mcr.microsoft.com/mssql/server:2019-CU13-ubuntu-20.04
+    restart: unless-stopped
+    environment: 
+        - ACCEPT_EULA=Y
+        - SA_PASSWORD=QWelkj123!
+        - MSSQL_PID=Developer
+    ports:
+        - 1401:1433
+    networks:
+        - enamjestajnet
+
+
+  enamjestaj.web:
+    restart: unless-stopped
+    build:
+      context: .
+    environment:
+        - ConnectionStrings:enamjestaj=Server=enamjestaj-sql,1433;Database=eNamjestaj_v2;User=sa;Password=QWelkj123!;ConnectRetryCount=0
+    ports:
+        - 5001:80
+    networks:
+        - enamjestajnet
+    links:
+        - enamjestaj-sql
+    depends_on:
+        - enamjestaj-sql
+
+networks:
+    enamjestajnet:
+        driver: bridge

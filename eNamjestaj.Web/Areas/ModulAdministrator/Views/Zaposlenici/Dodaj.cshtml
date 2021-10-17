@@ -72,22 +72,22 @@
                 <label>Opština: </label>
 
                 <div>
-                    <select class="custom-select" asp-for="OpstinaId" asp-items="@{new SelectList(Model.Opstine,"Id","Naziv")}">
-                        <option value=""></option>
-                    </select>
-                    <span asp-validation-for="OpstinaId" class="text-danger"></span>
+                    @Html.DropDownListFor(x => x.OpstinaId, Model.Opstine, "Odaberite proizvod", new { @class = "form-control" })
+                    <span class="text-danger">@Html.ValidationMessageFor(m => m.OpstinaId)</span>
                 </div>
+
+               
             </div>
 
             <div class="form-group">
                 <label>Uloga: </label>
 
                 <div>
-                    <select class="custom-select" asp-for="UlogaId" asp-items="@{new SelectList(Model.Uloge,"Id","TipUloge")}">
-                        <option value=""></option>
-                    </select>
-                    <span asp-validation-for="UlogaId" class="text-danger"></span>
+                    @Html.DropDownListFor(x => x.UlogaId, Model.Uloge, "Odaberite proizvod", new { @class = "form-control" })
+                    <span class="text-danger">@Html.ValidationMessageFor(m => m.UlogaId)</span>
                 </div>
+
+               
             </div>
 
             <div>

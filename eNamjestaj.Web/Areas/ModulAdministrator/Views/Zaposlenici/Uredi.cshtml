@@ -29,9 +29,7 @@
                 <label>Uloga: </label>
 
                 <div>
-                    <select class="custom-select" asp-for="UlogaID" asp-items="@{new SelectList(Model.Uloge,"Id","TipUloge")}">
-                        <option value=""></option>
-                    </select>
+                    @Html.DropDownListFor(x => x.UlogaID, Model.Uloge, "Odaberite proizvod", new { @class = "form-control" })
                     <span class="text-danger">@Html.ValidationMessageFor(m => m.UlogaID)</span>
                 </div>
             </div>

@@ -221,7 +221,7 @@ namespace eNamjestaj.Web.Areas.ModulMenadzer.Controllers
                 return BadRequest(ModelState);
         }
 
-        public IActionResult Detalji(int? id, int nalogId)
+        public IActionResult Detalji(int? id, int? nalogId)
         {
             ProizvodniNalogDetaljiVM model = new ProizvodniNalogDetaljiVM();
 

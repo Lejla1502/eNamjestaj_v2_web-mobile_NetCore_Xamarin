@@ -29,7 +29,7 @@ namespace eNamjestaj.Web.Areas.ModulMenadzer.ViewModels
         public string Cijena { get; set; }
         [Required(ErrorMessage = "Obavezno je odabrati vrstu proizvoda")]
         public int VrstaID { get; set; }
-        public List<VrstaProizvoda> Vrste { get; set; }
+        public SelectList Vrste { get; set; }
         [Required(ErrorMessage = "Obavezno je odabrati boju")]
         public int[] BojeID { get; set; }
         public SelectList Boje { get; set; }

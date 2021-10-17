@@ -102,3 +102,215 @@ C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mob
 C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.exe
 C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.pdb
 C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Rating.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.exe
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\CarouselView.FormsPlugin.Abstractions.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\CarouselView.FormsPlugin.iOS.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Flurl.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Flurl.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Flurl.Http.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Flurl.Http.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Microsoft.CodeAnalysis.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Microsoft.CodeAnalysis.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\System.Buffers.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\System.Collections.Immutable.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\System.Memory.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\System.Reflection.Metadata.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.HotReload.Reloader.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.HotReload.Reloader.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Rating.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\eNamjestaj.Mobile.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\eNamjestaj.Model.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\eNamjestaj.Mobile.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\eNamjestaj.Model.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.csproj.CopyComplete
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.exe
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.exe
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\CarouselView.FormsPlugin.Abstractions.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\CarouselView.FormsPlugin.iOS.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Flurl.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Flurl.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Flurl.Http.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Flurl.Http.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Microsoft.CodeAnalysis.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Microsoft.CodeAnalysis.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\System.Buffers.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\System.Collections.Immutable.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\System.Memory.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\System.Reflection.Metadata.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.HotReload.Reloader.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.HotReload.Reloader.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\Rating.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\eNamjestaj.Mobile.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\eNamjestaj.Model.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\eNamjestaj.Mobile.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\bin\iPhoneSimulator\Debug\eNamjestaj.Model.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.csproj.CopyComplete
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.exe
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile.iOS\obj\iPhoneSimulator\Debug\eNamjestaj.Mobile.iOS.pdb

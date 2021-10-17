@@ -90,11 +90,13 @@ namespace eNamjestaj.Web.Areas.ModulMenadzer.Controllers
 
             var opisList = ctx.OpisProizvoda.Select(x => new { x.Id, x.Opis }).ToList();
 
+            var vrstaSelectList = ctx.VrstaProizvoda.Select(s => new { s.Id, s.Naziv }).ToList();
+
             ProizvodiDodajVM model = new ProizvodiDodajVM
             {
                 OpisProizvoda =new SelectList(opisList, "Id", "Opis"),
 
-                Vrste = ctx.VrstaProizvoda.ToList(),
+                Vrste = new SelectList(vrstaSelectList, "Id", "Naziv"),
                 //Boje = ctx.Boja.Select(x => new Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
                 //{
                 //    Value = x.Id.ToString(),
@@ -211,6 +213,9 @@ namespace eNamjestaj.Web.Areas.ModulMenadzer.Controllers
         {
             Proizvod p = ctx.Proizvod.Find(id);
 
+
+            var vrstaSelectList = ctx.VrstaProizvoda.Select(s => new { s.Id, s.Naziv }).ToList();
+
             ProizvodiUrediVM model = new ProizvodiUrediVM
             {
                 ProizvodId = id,
@@ -218,7 +223,7 @@ namespace eNamjestaj.Web.Areas.ModulMenadzer.Controllers
                 Sifra = p.Sifra,
                 Cijena = p.Cijena.ToString("0.00").Replace(",", "."),
                 VrstaID = p.VrstaProizvodaId,
-                Vrste = ctx.VrstaProizvoda.ToList(),
+                Vrste = new SelectList(vrstaSelectList, "Id", "Naziv"),
                 //Boje = ctx.Boja.Select(b => new Microsoft.AspNetCore.Mvc.Rendering.SelectListItem {
                 //    Value = b.Id.ToString(), Text = b.Naziv
                 //}).ToList(),

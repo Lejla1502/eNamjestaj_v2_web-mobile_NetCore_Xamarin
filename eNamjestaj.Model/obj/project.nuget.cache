@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gZMy/HRYjeuZ4YngW0Oi5amZv+eLraTKsl9YyB++4bblqcDp/C58GWs1ahcxZlqtAMG8kFi3zrarzSyXvfJ24Q==",
+  "dgSpecHash": "vTZJ8xP4G/TjEfzMOd6YZhDdGnK6KAPsJM3/YHpKqDE4YKjfsykt8mYT8r9btdwLV1SZwNhLl77oKdzW9wFxoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Model\\eNamjestaj.Model.csproj",
+  "projectFilePath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Model\\eNamjestaj.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

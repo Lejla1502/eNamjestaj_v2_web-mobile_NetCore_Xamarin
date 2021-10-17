@@ -1,5 +1,6 @@
 ﻿using eNamjestaj.Data.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -43,11 +44,11 @@ namespace eNamjestaj.Web.Areas.ModulAdministrator.ViewModels
 
         [Required(ErrorMessage = "Obavezno je odabrati opstinu")]
         public int OpstinaId { get; set; }
-        public List<Opstina> Opstine { get; set; }
+        public SelectList Opstine { get; set; }
 
         [Required(ErrorMessage = "Obavezno je odabrati ulogu")]
         public int UlogaId { get; set; }
-        public List<Uloga> Uloge { get; set; }
+        public SelectList Uloge { get; set; }
         [Required(ErrorMessage = "Obavezno je unijeti broj telefona")]
         [DataType(DataType.PhoneNumber)]
         [RegularExpression(@"^(\d{9})$", ErrorMessage = "Wrong mobile")]

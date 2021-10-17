@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tez/A7FHO/KqlIpEYoVP7vCKoYJDUI6ErvwjhYfGuiJSKCfLa0EVN6fkaCLmdk28fAuX1BW6nziyWFqp34h1Fg==",
+  "dgSpecHash": "moi3Kp9fGQ4JwsjCw8IO6UjflJoDANKCq/K6BG0NbyEaKZlylCas32sGrU4Vl9/wuomhngONpVpfArD3NscHBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.WebAPI\\eNamjestaj.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.WebAPI\\eNamjestaj.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.0.0\\automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512",
@@ -183,6 +183,7 @@
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",

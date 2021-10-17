@@ -97,7 +97,8 @@ namespace eNamjestaj.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Cijena");
+                    b.Property<decimal>("Cijena")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("DobavljacId");
 
@@ -119,7 +120,8 @@ namespace eNamjestaj.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Cijena");
+                    b.Property<decimal>("Cijena")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("DobavljacId");
 
@@ -141,7 +143,8 @@ namespace eNamjestaj.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Cijena");
+                    b.Property<decimal>("Cijena")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Opis");
 
@@ -206,9 +209,11 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<int>("DostavaId");
 
-                    b.Property<decimal>("IznosBezPDV");
+                    b.Property<decimal>("IznosBezPDV")
+                        .HasColumnType("decimal(18,2)");
 
-                    b.Property<decimal>("IznosSaPDV");
+                    b.Property<decimal>("IznosSaPDV")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int?>("KorisnikId");
 
@@ -236,13 +241,15 @@ namespace eNamjestaj.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Cijena");
+                    b.Property<decimal>("Cijena")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("IzlazId");
 
                     b.Property<int>("Kolicina");
 
-                    b.Property<decimal>("Konacnacijena");
+                    b.Property<decimal>("Konacnacijena")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Popust");
 
@@ -388,7 +395,8 @@ namespace eNamjestaj.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Cijena");
+                    b.Property<decimal>("Cijena")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Naziv");
 
@@ -441,7 +449,8 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<int>("SkladisteId");
 
-                    b.Property<decimal>("Total");
+                    b.Property<decimal>("Total")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -460,7 +469,8 @@ namespace eNamjestaj.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Cijena");
+                    b.Property<decimal>("Cijena")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Kolicina");
 
@@ -468,7 +478,8 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<int>("NabavkaMaterijalId");
 
-                    b.Property<decimal>("TotalStavka");
+                    b.Property<decimal>("TotalStavka")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -497,7 +508,8 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<int>("SkladisteId");
 
-                    b.Property<decimal>("Total");
+                    b.Property<decimal>("Total")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -516,7 +528,8 @@ namespace eNamjestaj.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Cijena");
+                    b.Property<decimal>("Cijena")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Kolicina");
 
@@ -524,7 +537,8 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<int>("ProizvodId");
 
-                    b.Property<decimal>("TotalStavka");
+                    b.Property<decimal>("TotalStavka")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -559,7 +573,8 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<bool>("Status");
 
-                    b.Property<decimal>("Total");
+                    b.Property<decimal>("Total")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -576,7 +591,8 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<int>("BojaId");
 
-                    b.Property<decimal>("CijenaProizvoda");
+                    b.Property<decimal>("CijenaProizvoda")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Kolicina");
 
@@ -586,7 +602,8 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<int>("ProizvodId");
 
-                    b.Property<decimal>("TotalStavke");
+                    b.Property<decimal>("TotalStavke")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -680,7 +697,8 @@ namespace eNamjestaj.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Cijena");
+                    b.Property<decimal>("Cijena")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("KorisnikId");
 
@@ -764,9 +782,11 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<int>("SkladisteProizvodaId");
 
-                    b.Property<decimal>("TrosakPoProizvodu");
+                    b.Property<decimal>("TrosakPoProizvodu")
+                        .HasColumnType("decimal(18,2)");
 
-                    b.Property<decimal>("UkupnaCijena");
+                    b.Property<decimal>("UkupnaCijena")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<bool>("Zakljucen");
 
@@ -814,7 +834,8 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<int>("KupacId");
 
-                    b.Property<decimal>("Ocjena");
+                    b.Property<decimal>("Ocjena")
+                        .HasColumnType("decimal");
 
                     b.Property<int>("ProizvodId");
 
@@ -862,7 +883,8 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<DateTime>("Datum");
 
-                    b.Property<decimal>("IznosRacuna");
+                    b.Property<decimal>("IznosRacuna")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("KorisnikId");
 
@@ -870,7 +892,8 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<string>("Napomena");
 
-                    b.Property<decimal>("PDV");
+                    b.Property<decimal>("PDV")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("SkladisteId");
 
@@ -892,7 +915,8 @@ namespace eNamjestaj.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Cijena");
+                    b.Property<decimal>("Cijena")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Kolicina");
 
@@ -919,7 +943,8 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<DateTime>("Datum");
 
-                    b.Property<decimal>("IznosRacuna");
+                    b.Property<decimal>("IznosRacuna")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("KorisnikId");
 
@@ -927,7 +952,8 @@ namespace eNamjestaj.Data.Migrations
 
                     b.Property<string>("Napomena");
 
-                    b.Property<decimal>("PDV");
+                    b.Property<decimal>("PDV")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("SkladisteId");
 
@@ -949,7 +975,8 @@ namespace eNamjestaj.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Cijena");
+                    b.Property<decimal>("Cijena")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Kolicina");
 

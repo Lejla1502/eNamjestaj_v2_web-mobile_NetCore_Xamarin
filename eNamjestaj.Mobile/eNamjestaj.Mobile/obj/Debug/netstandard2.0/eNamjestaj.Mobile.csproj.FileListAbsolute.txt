@@ -1,36 +1,72 @@
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.csproj.AssemblyReference.cache
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\MainPageDetail.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\MainPageFlyout.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\NarudzbaPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ProfilEditPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ProfilPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ProizvodDetailPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ProizvodiPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\RegistracijaPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.AssemblyInfoInputs.cache
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.AssemblyInfo.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.csproj.CoreCompileInputs.cache
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Mobile.deps.json
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Mobile.dll
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\ref\eNamjestaj.Mobile.dll
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Mobile.pdb
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Model.dll
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Model.pdb
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.csproj.CopyComplete
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.dll
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\ref\eNamjestaj.Mobile.dll
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.pdb
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\HistorijaNarudzbiDetailPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\HistorijaNarudzbiPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\AkcijskiKatalogPage.xaml.g.cs
-C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\AkcijskiKatalogProizvodDetailPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Mobile.deps.json
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Mobile.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\ref\eNamjestaj.Mobile.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Mobile.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Model.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Model.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\AkcijskiKatalogPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\AkcijskiKatalogProizvodDetailPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\HistorijaNarudzbiDetailPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\HistorijaNarudzbiPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\MainPageDetail.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\MainPageFlyout.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\NarudzbaPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ProfilEditPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ProfilPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ProizvodDetailPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ProizvodiPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\RegistracijaPage.xaml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.csproj.CopyComplete
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\ref\eNamjestaj.Mobile.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Mobile.deps.json
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Mobile.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\ref\eNamjestaj.Mobile.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Mobile.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Model.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Model.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\AkcijskiKatalogPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\AkcijskiKatalogProizvodDetailPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\HistorijaNarudzbiDetailPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\HistorijaNarudzbiPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\MainPageDetail.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\MainPageFlyout.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\NarudzbaPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ProfilEditPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ProfilPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ProizvodDetailPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\ProizvodiPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\Views\RegistracijaPage.xaml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.AssemblyInfo.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.csproj.CopyComplete
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\ref\eNamjestaj.Mobile.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\obj\Debug\netstandard2.0\eNamjestaj.Mobile.pdb

@@ -4,6 +4,10 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "eNamjestaj.Mobile.Android.dll" comes first in this list. */
 		"eNamjestaj.Mobile.Android.dll",
 		"eNamjestaj.Model.dll",
+		"CarouselView.FormsPlugin.Abstractions.dll",
+		"CarouselView.FormsPlugin.Droid.dll",
+		"Com.Android.DeskClock.dll",
+		"Com.ViewPagerIndicator.dll",
 		"eNamjestaj.Mobile.dll",
 		"Flurl.dll",
 		"Flurl.Http.dll",

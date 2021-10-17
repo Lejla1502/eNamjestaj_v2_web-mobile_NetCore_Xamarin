@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>363b150c-4876-452f-8827-726a134347e6</PackageIdentityName>
     <PackageIdentityPublisher>CN=HP</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\bin\x86\Debug\eNamjestaj.Mobile.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\bin\x86\Debug\eNamjestaj.Mobile.UWP.exe">
       <PackagePath>entrypoint\eNamjestaj.Mobile.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\.nuget\packages\carouselview.formsplugin\6.0.0\lib\UAP10\CarouselView.FormsPlugin.Abstractions.dll">
@@ -157,10 +157,10 @@
     <AppxPackagedFile Include="C:\Users\HP\.nuget\packages\xamarin.rating\1.0.0.2\lib\netstandard2.0\Rating.dll">
       <PackagePath>Rating.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Mobile.dll">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Mobile.dll">
       <PackagePath>eNamjestaj.Mobile.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Model.dll">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile\eNamjestaj.Mobile\bin\Debug\netstandard2.0\eNamjestaj.Model.dll">
       <PackagePath>eNamjestaj.Model.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
@@ -175,220 +175,220 @@
     <AppxPackagedFile Include="C:\Users\HP\.nuget\packages\xamarin.forms\5.0.0.2083\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\abstract-blur-living-room-interior.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\abstract-blur-living-room-interior.jpg">
       <PackagePath>abstract-blur-living-room-interior.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\15899712818211362962276.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\15899712818211362962276.jpg">
       <PackagePath>Assets\images\Namjestaj\15899712818211362962276.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\3d-rendering-minimal-interior-design-260nw-1588800826.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\3d-rendering-minimal-interior-design-260nw-1588800826.jpg">
       <PackagePath>Assets\images\Namjestaj\3d-rendering-minimal-interior-design-260nw-1588800826.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\garderoba-ph120-313799.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\garderoba-ph120-313799.jpg">
       <PackagePath>Assets\images\Namjestaj\garderoba-ph120-313799.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\garderoba-ph124-315706.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\garderoba-ph124-315706.jpg">
       <PackagePath>Assets\images\Namjestaj\garderoba-ph124-315706.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\garderoba-ph23-214003.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\garderoba-ph23-214003.jpg">
       <PackagePath>Assets\images\Namjestaj\garderoba-ph23-214003.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\garderoba-ph94-233828.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\garderoba-ph94-233828.jpg">
       <PackagePath>Assets\images\Namjestaj\garderoba-ph94-233828.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\garderoba-pk125-226166.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\garderoba-pk125-226166.jpg">
       <PackagePath>Assets\images\Namjestaj\garderoba-pk125-226166.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\komoda-bdj4-257361.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\komoda-bdj4-257361.jpg">
       <PackagePath>Assets\images\Namjestaj\komoda-bdj4-257361.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\komoda-cab2-70057.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\komoda-cab2-70057.jpg">
       <PackagePath>Assets\images\Namjestaj\komoda-cab2-70057.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\komoda-pd240-227711.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\komoda-pd240-227711.jpg">
       <PackagePath>Assets\images\Namjestaj\komoda-pd240-227711.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\komoda-pk2-320347.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\komoda-pk2-320347.jpg">
       <PackagePath>Assets\images\Namjestaj\komoda-pk2-320347.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\komoda-pk33-320947.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\komoda-pk33-320947.jpg">
       <PackagePath>Assets\images\Namjestaj\komoda-pk33-320947.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\krevet-caa5-70018.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\krevet-caa5-70018.jpg">
       <PackagePath>Assets\images\Namjestaj\krevet-caa5-70018.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\krevet-lvb23-20250.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\krevet-lvb23-20250.jpg">
       <PackagePath>Assets\images\Namjestaj\krevet-lvb23-20250.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\krevet-maa3-77417.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\krevet-maa3-77417.jpg">
       <PackagePath>Assets\images\Namjestaj\krevet-maa3-77417.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\krevet-pk295-327260.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\krevet-pk295-327260.jpg">
       <PackagePath>Assets\images\Namjestaj\krevet-pk295-327260.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\polica-bc17-129160.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\polica-bc17-129160.jpg">
       <PackagePath>Assets\images\Namjestaj\polica-bc17-129160.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\polica-rc1094-352507.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\polica-rc1094-352507.jpg">
       <PackagePath>Assets\images\Namjestaj\polica-rc1094-352507.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\polica-rc341-293594.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\polica-rc341-293594.jpg">
       <PackagePath>Assets\images\Namjestaj\polica-rc341-293594.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\stol-aan11-96035.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\stol-aan11-96035.jpg">
       <PackagePath>Assets\images\Namjestaj\stol-aan11-96035.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\stol-c12-225561.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\stol-c12-225561.jpg">
       <PackagePath>Assets\images\Namjestaj\stol-c12-225561.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\stol-c74-291357.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\stol-c74-291357.jpg">
       <PackagePath>Assets\images\Namjestaj\stol-c74-291357.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\stol-ds1-88059.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\stol-ds1-88059.jpg">
       <PackagePath>Assets\images\Namjestaj\stol-ds1-88059.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\stol-lu53-27296.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\stol-lu53-27296.jpg">
       <PackagePath>Assets\images\Namjestaj\stol-lu53-27296.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\stol-s6421-357389.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\stol-s6421-357389.jpg">
       <PackagePath>Assets\images\Namjestaj\stol-s6421-357389.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\uredski-stol-BGF2-23320.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\uredski-stol-BGF2-23320.jpg">
       <PackagePath>Assets\images\Namjestaj\uredski-stol-BGF2-23320.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\zidna-polica-mt332-253231.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\zidna-polica-mt332-253231.jpg">
       <PackagePath>Assets\images\Namjestaj\zidna-polica-mt332-253231.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\zidna-polica-mt333-253239.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\zidna-polica-mt333-253239.jpg">
       <PackagePath>Assets\images\Namjestaj\zidna-polica-mt333-253239.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\carts.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\carts.png">
       <PackagePath>Assets\carts.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\discount-16.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\discount-16.png">
       <PackagePath>discount-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\icons8-discount-32.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\icons8-discount-32.png">
       <PackagePath>Assets\icons8-discount-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\black.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\black.png">
       <PackagePath>Assets\images\Namjestaj\black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\mockupFormaZaPrikazDetaljaProizvoda_validacijaKosare.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\Namjestaj\mockupFormaZaPrikazDetaljaProizvoda_validacijaKosare.png">
       <PackagePath>Assets\images\Namjestaj\mockupFormaZaPrikazDetaljaProizvoda_validacijaKosare.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\shopping-bag.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\shopping-bag.png">
       <PackagePath>Assets\shopping-bag.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\shopping-bagg.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\shopping-bagg.png">
       <PackagePath>Assets\shopping-bagg.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\cart.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\cart.png">
       <PackagePath>cart.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\carts.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\carts.png">
       <PackagePath>carts.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\icons8-discount-40.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\icons8-discount-40.png">
       <PackagePath>icons8-discount-40.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\icons8-discount-80.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\icons8-discount-80.png">
       <PackagePath>icons8-discount-80.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\icons8-exit-80.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\icons8-exit-80.png">
       <PackagePath>icons8-exit-80.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\icons8-product-40.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\icons8-product-40.png">
       <PackagePath>icons8-product-40.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\icons8-product-80.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\icons8-product-80.png">
       <PackagePath>icons8-product-80.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\icons8-purchase-order-40.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\icons8-purchase-order-40.png">
       <PackagePath>icons8-purchase-order-40.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\icons8-purchase-order-80.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\icons8-purchase-order-80.png">
       <PackagePath>icons8-purchase-order-80.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\icons8-shopping-cart-40.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\icons8-shopping-cart-40.png">
       <PackagePath>icons8-shopping-cart-40.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\icons8-shopping-cart-80.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\icons8-shopping-cart-80.png">
       <PackagePath>icons8-shopping-cart-80.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\icons8-test-account-40.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\icons8-test-account-40.png">
       <PackagePath>icons8-test-account-40.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\icons8-test-account-80.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\icons8-test-account-80.png">
       <PackagePath>icons8-test-account-80.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\shopping-bag.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\shopping-bag.png">
       <PackagePath>shopping-bag.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\shopping-cart-white.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\shopping-cart-white.png">
       <PackagePath>shopping-cart-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\star_empty.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\star_empty.png">
       <PackagePath>star_empty.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\star_fill.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\star_fill.png">
       <PackagePath>star_fill.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\user.png">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\user.png">
       <PackagePath>user.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\banner1.svg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\banner1.svg">
       <PackagePath>Assets\images\banner1.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\banner2.svg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\banner2.svg">
       <PackagePath>Assets\images\banner2.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\banner3.svg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\banner3.svg">
       <PackagePath>Assets\images\banner3.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\images\banner4.svg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\images\banner4.svg">
       <PackagePath>Assets\images\banner4.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Assets\shopping-bag-3752.svg">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Assets\shopping-bag-3752.svg">
       <PackagePath>Assets\shopping-bag-3752.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\bin\x86\Debug\eNamjestaj.Mobile.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\bin\x86\Debug\eNamjestaj.Mobile.UWP.xr.xml">
       <PackagePath>eNamjestaj.Mobile.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
@@ -400,10 +400,10 @@
     <AppxPackagedFile Include="C:\Users\HP\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Mobile.UWP\bin\x86\Debug\Core\eNamjestaj.Mobile.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Mobile.UWP\bin\x86\Debug\Core\eNamjestaj.Mobile.UWP.exe">
       <PackagePath>eNamjestaj.Mobile.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

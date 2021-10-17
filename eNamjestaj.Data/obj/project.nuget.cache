@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1qAW9VnkBKlKoNZBoOYKbwGxiIV1PxcLnm71JWtDbr1e8kOZorgrzOm6Fm3TqpoLWQRuvuVgupnHnnnOL9CE9A==",
+  "dgSpecHash": "/Z/JFY04AV45V92aa93mGi0j+ZOCzFeieAVM3HsFIFQ7CEOLTfR+mh21y27nw122HVwxf/bntCRMb6/Kd2eM3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Data\\eNamjestaj.Data.csproj",
+  "projectFilePath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Data\\eNamjestaj.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

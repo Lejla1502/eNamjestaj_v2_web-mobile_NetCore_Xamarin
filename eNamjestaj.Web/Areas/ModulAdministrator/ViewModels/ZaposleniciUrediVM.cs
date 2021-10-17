@@ -1,5 +1,6 @@
 ﻿using eNamjestaj.Data.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -22,6 +23,6 @@ namespace eNamjestaj.Web.Areas.ModulAdministrator.ViewModels
         
         [Required(ErrorMessage = "Obavezno je odabrati ulogu")]
         public int UlogaID { get; set; }
-        public List<Uloga> Uloge { get; set; }
+        public SelectList Uloge { get; set; }
     }
 }

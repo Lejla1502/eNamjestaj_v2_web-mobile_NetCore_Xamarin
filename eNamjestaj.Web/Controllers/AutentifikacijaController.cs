@@ -78,8 +78,8 @@ namespace eNamjestaj.Web.Controllers
                 return RedirectToAction("Login" );
             }
 
-            Korisnik korisnik = ctx.Korisnik
-                .SingleOrDefault(x => x.KorisnickoIme == model.username && x.LozinkaHash == PasswordSettings.GetHash(model.password, Convert.FromBase64String(x.LozinkaSalt)));
+            Korisnik korisnik = ctx.Korisnik.Where(x => x.KorisnickoIme == model.username && x.LozinkaHash == PasswordSettings.GetHash(model.password, Convert.FromBase64String(x.LozinkaSalt))).SingleOrDefault();
+               
 
             if (korisnik == null)
             {

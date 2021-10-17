@@ -34,3 +34,29 @@ C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Dat
 C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.genruntimeconfig.cache
 C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.csproj.AssemblyReference.cache
 C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Data\bin\Release\netcoreapp2.2\eNamjestaj.Data.deps.json
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Data\bin\Release\netcoreapp2.2\eNamjestaj.Data.runtimeconfig.json
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Data\bin\Release\netcoreapp2.2\eNamjestaj.Data.runtimeconfig.dev.json
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Data\bin\Release\netcoreapp2.2\eNamjestaj.Data.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Data\bin\Release\netcoreapp2.2\eNamjestaj.Data.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.genruntimeconfig.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Data\bin\Release\netcoreapp2.2\eNamjestaj.Data.deps.json
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Data\bin\Release\netcoreapp2.2\eNamjestaj.Data.runtimeconfig.json
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Data\bin\Release\netcoreapp2.2\eNamjestaj.Data.runtimeconfig.dev.json
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Data\bin\Release\netcoreapp2.2\eNamjestaj.Data.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Data\bin\Release\netcoreapp2.2\eNamjestaj.Data.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.AssemblyInfo.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Data\obj\Release\netcoreapp2.2\eNamjestaj.Data.genruntimeconfig.cache

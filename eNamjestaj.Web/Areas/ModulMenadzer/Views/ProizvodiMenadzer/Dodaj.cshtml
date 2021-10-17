@@ -44,12 +44,11 @@
             <label>Vrsta: </label>
 
             <div>
-                <select class="custom-select" asp-for="VrstaID" asp-items="@{new SelectList(Model.Vrste,"Id","Naziv")}">
-                    <option value=""></option>
-                </select>
-
-                <span asp-validation-for="VrstaID" class="text-danger"></span>
+                @Html.DropDownListFor(x => x.VrstaID, Model.Vrste, "Odaberite proizvod", new { @class = "form-control" })
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.VrstaID)</span>
             </div>
+
+           
         </div>
 
         <div class="form-group">

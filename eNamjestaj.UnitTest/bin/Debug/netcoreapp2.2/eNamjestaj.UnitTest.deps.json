@@ -55,6 +55,19 @@
           }
         }
       },
+      "LazZiya.TagHelpers/2.2.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Localization": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.TagHelpers": "2.2.0",
+          "Microsoft.AspNetCore.Routing": "2.2.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/LazZiya.TagHelpers.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics": "2.2.0",
@@ -1280,6 +1293,17 @@
           }
         }
       },
+      "Microsoft.Extensions.FileProviders.Embedded/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
       "Microsoft.Extensions.FileProviders.Physical/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
@@ -1740,6 +1764,7 @@
           }
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.11.1": {},
       "Microsoft.VisualStudio.Web.BrowserLink/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
@@ -1948,6 +1973,21 @@
           "System.Threading.Thread": "4.3.0",
           "System.Xml.XPath.XmlDocument": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "ReflectionIT.Mvc.Paging/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Razor": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
+          "Microsoft.Extensions.FileProviders.Embedded": "2.0.0",
+          "Microsoft.Extensions.Options": "2.2.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/ReflectionIT.Mvc.Paging.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -3272,6 +3312,7 @@
       "eNamjestaj.Web/1.0.0": {
         "dependencies": {
           "GoogleAuthenticatorService.Core": "1.0.2",
+          "LazZiya.TagHelpers": "2.2.1",
           "Microsoft.AspNetCore": "2.2.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
@@ -3283,9 +3324,11 @@
           "Microsoft.EntityFrameworkCore.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0",
           "Microsoft.Extensions.Logging.Debug": "2.2.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.11.1",
           "Microsoft.VisualStudio.Web.BrowserLink": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.4",
           "Newtonsoft.Json": "12.0.3",
+          "ReflectionIT.Mvc.Paging": "2.2.0",
           "System.Drawing.Common": "4.7.0",
           "eNamjestaj.Data": "1.0.0"
         },
@@ -3314,6 +3357,13 @@
       "sha512": "sha512-e4wdg9w91qy8pisV0JStAY0BUQ+sN3g5v3j2D3hCbAaiwKu/Vw3G+AznPWx5u1zSPe12H0U3ZhX1d6DcbQUZjw==",
       "path": "googleauthenticatorservice.core/1.0.2",
       "hashPath": "googleauthenticatorservice.core.1.0.2.nupkg.sha512"
+    },
+    "LazZiya.TagHelpers/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T22uSFXCBAf/Qotq/0Q8NTc1djLgQeU1yU73SmvtJ7cUOED4ojtQu5Hbl2Ugkfkg/dmZw4PoH6kvswS5m+uAkg==",
+      "path": "lazziya.taghelpers/2.2.1",
+      "hashPath": "lazziya.taghelpers.2.2.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore/2.2.0": {
       "type": "package",
@@ -3966,6 +4016,13 @@
       "path": "microsoft.extensions.fileproviders.composite/2.2.0",
       "hashPath": "microsoft.extensions.fileproviders.composite.2.2.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.FileProviders.Embedded/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A1pniIZjS/8z8HQWIzm/datI6J0X4R9wngmVLGbfZ1LIj78oOR+sdqNHo5yvAwJz38TR9fG2E3b410wuoGxBKw==",
+      "path": "microsoft.extensions.fileproviders.embedded/2.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.2.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.FileProviders.Physical/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -4113,6 +4170,13 @@
       "path": "microsoft.testplatform.testhost/15.9.0",
       "hashPath": "microsoft.testplatform.testhost.15.9.0.nupkg.sha512"
     },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.11.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1jHxWlSi6/ryWODk6SUjsZPHk/BdsucxqhIi1szEzwc84e8nvZWF45qRXcT2gWPISJ3Ybbyg2LsNG6yX8r7VuA==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.11.1",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512"
+    },
     "Microsoft.VisualStudio.Web.BrowserLink/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -4245,6 +4309,13 @@
       "sha512": "sha512-hC4QeR/iC8yJcI9eyAfAFWBaDP7lh4CnXqIMLq26CLLGQsLqy44uJwBVmo/0o9aTKVwPm/M1lPYqYcfOJMDqyg==",
       "path": "nunit3testadapter/3.10.0",
       "hashPath": "nunit3testadapter.3.10.0.nupkg.sha512"
+    },
+    "ReflectionIT.Mvc.Paging/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DBHu9kP5E8v3xh9zg3QOza/pav9MiczvXn3PFuqwgCc73RqCPMEgKTjK4P4v8m7+5AR2SqF4IqTW8yqYVtgGWQ==",
+      "path": "reflectionit.mvc.paging/2.2.0",
+      "hashPath": "reflectionit.mvc.paging.2.2.0.nupkg.sha512"
     },
     "Remotion.Linq/2.2.0": {
       "type": "package",

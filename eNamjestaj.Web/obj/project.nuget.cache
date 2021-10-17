@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4bysH/PqPdwsTZ5J2DHmp5+0FddCuOKYddKE5usD4Gqd2jytx8X1UIOqNBNfRnnrw/yAYvjF/FoWMbnKn33Mbw==",
+  "dgSpecHash": "FYEZ7KxX7egNAvkmMUxBo036bHxEFegD4XLXVG5ARE1QZHDRkq+DO/MqVpjl1GVMmTfG2IV9FHnFDv38di80wQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Web\\eNamjestaj.Web.csproj",
+  "projectFilePath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Web\\eNamjestaj.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\googleauthenticatorservice.core\\1.0.2\\googleauthenticatorservice.core.1.0.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\lazziya.taghelpers\\2.2.1\\lazziya.taghelpers.2.2.1.nupkg.sha512",
@@ -117,6 +117,7 @@
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.visualstudio.web.browserlink\\2.2.0\\microsoft.visualstudio.web.browserlink.2.2.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\2.2.4\\microsoft.visualstudio.web.codegeneration.2.2.4.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\2.2.4\\microsoft.visualstudio.web.codegeneration.contracts.2.2.4.nupkg.sha512",

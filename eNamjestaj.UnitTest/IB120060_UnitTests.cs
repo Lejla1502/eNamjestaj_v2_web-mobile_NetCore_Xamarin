@@ -16,7 +16,7 @@ using Moq;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
-using System.Drawing;
+//using System.Drawing;
 using System.Drawing.Imaging;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
@@ -1124,7 +1124,7 @@ namespace eNamjestaj.UnitTest
             ProizvodiDodajVM aktualni = result.Model as ProizvodiDodajVM;
 
             Assert.IsNotNull(pmc.Dodaj());
-            Assert.AreEqual(_context.VrstaProizvoda.ToList().Count, aktualni.Vrste.Count);
+            Assert.AreEqual(_context.VrstaProizvoda.ToList().Count, aktualni.Vrste.ToList().Count);
             Assert.AreEqual(_context.Boja.ToList().Count, aktualni.Boje.ToList().Count);
 
         }
@@ -1869,7 +1869,7 @@ namespace eNamjestaj.UnitTest
             PartialViewResult result = asc.Dodaj(id) as PartialViewResult;
             AkcijskiKatalogStavkeDodajVM model = result.Model as AkcijskiKatalogStavkeDodajVM;
 
-            Assert.AreEqual(1, model.Proizvodi.Count);
+            Assert.AreEqual(1, model.Proizvodi.ToList().Count);
             Assert.AreEqual(id, model.KatalogID);
         }
 
@@ -2193,8 +2193,8 @@ namespace eNamjestaj.UnitTest
             PartialViewResult result = zc.Dodaj() as PartialViewResult;
             ZaposleniciDodajVM model = result.Model as ZaposleniciDodajVM;
 
-            Assert.AreEqual(1, model.Opstine.Count);
-            Assert.AreEqual(4, model.Uloge.Count);
+            Assert.AreEqual(1, model.Opstine.ToList().Count);
+            Assert.AreEqual(4, model.Uloge.ToList().Count);
         }
 
         [TestMethod]
@@ -3537,20 +3537,20 @@ namespace eNamjestaj.UnitTest
             ProizvodniNalogController pn= new ProizvodniNalogController(_context);
             pn.TempData = GetTempDataForRedirect();
 
-            var result=pn.Detalji(null) as ViewResult;
+            var result=pn.Detalji(null, null) as ViewResult;
             ProizvodniNalogDetaljiVM model = result.Model as ProizvodniNalogDetaljiVM;
 
             Assert.IsNull(model);
         }
 
         [TestMethod]
-        [DataRow(1)]
-        public void Test_ProizvodniNalog_DetaljiPrimaID_VracaStavkeNalogaSaDatimID(int id)
+        [DataRow(1,1)]
+        public void Test_ProizvodniNalog_DetaljiPrimaID_VracaStavkeNalogaSaDatimID(int id, int nalogId)
         {
             ProizvodniNalogController pn = new ProizvodniNalogController(_context);
             pn.TempData = GetTempDataForRedirect();
 
-            var result = pn.Detalji(id) as ViewResult;
+            var result = pn.Detalji(id, nalogId) as ViewResult;
             ProizvodniNalogDetaljiVM model = result.Model as ProizvodniNalogDetaljiVM;
 
             Assert.AreEqual("neki",model.StavkeNaloga[0].NazivMat);

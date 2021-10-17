@@ -264,3 +264,183 @@ C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Web
 C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Dashboard\Index.cshtml.g.cs
 C:\Users\HP\source\repos\eNamjestaj_v2_web-mobile_NetCore_Xamarin\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.RazorAssemblyInfo.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.RazorAssemblyInfo.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.TagHelpers.input.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.TagHelpers.output.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.RazorCoreGenerate.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\appsettings.Development.json
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\appsettings.json
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\bundleconfig.json
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\libman.json
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.deps.json
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.runtimeconfig.json
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.runtimeconfig.dev.json
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.Views.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.Views.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Data.dll
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Data.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Kupci\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Kupci\Uredi.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Shared\Error.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Zaposlenici\Dodaj.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Zaposlenici\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Zaposlenici\Uredi.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\_ViewImports.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\_ViewStart.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\AkcijskiKatalogStavke\Dodaj.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\AkcijskiKatalogStavke\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\AkcijskiKatalog\Dodaj.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\AkcijskiKatalog\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Kategorija\Dodaj.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Kategorija\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Kategorija\Uredi.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaMaterijalStavke\Dodaj.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaMaterijalStavke\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaMaterijal\Dodaj.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaMaterijal\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaProizvodStavke\Dodaj.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaProizvodStavke\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaProizvod\Dodaj.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaProizvod\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NarudzbeMenadzer\Detalji.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NarudzbeMenadzer\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NaslovnaStrana\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NormativStavke\Dodaj.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NormativStavke\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Normativ\Dodaj.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Normativ\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Podkategorija\Dodaj.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodiMenadzer\Dodaj.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodiMenadzer\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodiMenadzer\Uredi.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodniNalog\Detalji.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodniNalog\Dodaj.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodniNalog\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodniNalog\Uredi.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Shared\Error.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\_ViewImports.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\_ViewStart.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Autentifikacija\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Autentifikacija\LoginTwoFactor.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Autentifikacija\PrikazPoruke.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Home\NaslovnaStrana.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Sesija\Index.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Shared\_LayoutAnonim.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Shared\_LayoutAuth.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.RazorTargetAssemblyInfo.cache
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.RazorTargetAssemblyInfo.cs
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.Views.pdb
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.csproj.CopyComplete
+C:\Users\HP\OneDrive\Radna površina\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.genruntimeconfig.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\appsettings.Development.json
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\appsettings.json
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\bundleconfig.json
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\libman.json
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.deps.json
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.runtimeconfig.json
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.runtimeconfig.dev.json
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.Views.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Web.Views.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Data.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\bin\Release\netcoreapp2.2\eNamjestaj.Data.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.AssemblyInfo.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.RazorAssemblyInfo.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.RazorAssemblyInfo.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.TagHelpers.input.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.TagHelpers.output.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.RazorCoreGenerate.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Kupci\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Kupci\Uredi.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Shared\Error.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Zaposlenici\Dodaj.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Zaposlenici\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\Zaposlenici\Uredi.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\_ViewImports.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulAdministrator\Views\_ViewStart.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\AkcijskiKatalogStavke\Dodaj.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\AkcijskiKatalogStavke\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\AkcijskiKatalog\Dodaj.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\AkcijskiKatalog\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Kategorija\Dodaj.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Kategorija\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Kategorija\Uredi.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaMaterijalStavke\Dodaj.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaMaterijalStavke\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaMaterijal\Dodaj.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaMaterijal\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaProizvodStavke\Dodaj.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaProizvodStavke\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaProizvod\Dodaj.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NabavkaProizvod\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NarudzbeMenadzer\Detalji.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NarudzbeMenadzer\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NaslovnaStrana\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NormativStavke\Dodaj.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\NormativStavke\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Normativ\Dodaj.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Normativ\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Podkategorija\Dodaj.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodiMenadzer\Dodaj.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodiMenadzer\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodiMenadzer\Uredi.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodniNalog\Detalji.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodniNalog\Dodaj.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodniNalog\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\ProizvodniNalog\Uredi.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Shared\Error.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\_ViewImports.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Areas\ModulMenadzer\Views\_ViewStart.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Autentifikacija\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Autentifikacija\LoginTwoFactor.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Autentifikacija\PrikazPoruke.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Home\NaslovnaStrana.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Sesija\Index.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Shared\_LayoutAnonim.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Shared\_LayoutAuth.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.RazorTargetAssemblyInfo.cache
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.RazorTargetAssemblyInfo.cs
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.Views.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.csproj.CopyComplete
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.dll
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.pdb
+C:\Users\HP\source\repos\eNamjestaj\eNamjestaj.Web\obj\Release\netcoreapp2.2\eNamjestaj.Web.genruntimeconfig.cache

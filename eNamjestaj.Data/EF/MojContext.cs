@@ -8,20 +8,20 @@ namespace eNamjestaj.Data
 {
     public class MojContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+       /* protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseSqlServer("Server=enamjestaj-server,1433,Database=eNamjestaj;Trusted_Connection=false;MultipleActiveResultSets=true;User ID=enamjestaj-server-admin;Password=76OT5KE8D86UD64T$");
-        }
+        }*/
 
-        /*protected override void OnConfiguring(DbContextOptionsBuilder optionsbuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsbuilder)
         {
 
             base.OnConfiguring(optionsbuilder);
 
             optionsbuilder.UseSqlServer("server=localhost;database=enamjestaj_v2;trusted_connection=true;multipleactiveresultsets=true;user id=aa;password=aa; connection timeout=9000");
 
-        }*/
+        }
 
 
 
@@ -119,10 +119,91 @@ namespace eNamjestaj.Data
         .WithOne(b => b.Proizvod)
         .HasForeignKey<Normativ>(b => b.ProizvodId);
 
+            modelBuilder.Entity<DobavljacMaterijal>()
+           .Property(b => b.Cijena).HasColumnType("decimal(18,2)");
 
-           
+            modelBuilder.Entity<DobavljacProizvod>()
+           .Property(b => b.Cijena).HasColumnType("decimal(18,2)");
 
-        }
+            modelBuilder.Entity<Dostava>()
+           .Property(b => b.Cijena).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<Izlaz>()
+           .Property(b => b.IznosBezPDV).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<Izlaz>()
+          .Property(b => b.IznosSaPDV).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<IzlazStavka>()
+         .Property(b => b.Cijena).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<IzlazStavka>()
+         .Property(b => b.Konacnacijena).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<Materijal>()
+        .Property(b => b.Cijena).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<NabavkaMaterijal>()
+        .Property(b => b.Total).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<NabavkaMaterijalStavka>()
+       .Property(b => b.Cijena).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<NabavkaMaterijalStavka>()
+       .Property(b => b.TotalStavka).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<NabavkaProizvod>()
+       .Property(b => b.Total).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<NabavkaProizvodStavka>()
+        .Property(b => b.Cijena).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<NabavkaProizvodStavka>()
+        .Property(b => b.TotalStavka).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<Narudzba>()
+        .Property(b => b.Total).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<NarudzbaStavka>()
+        .Property(b => b.CijenaProizvoda).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<NarudzbaStavka>()
+      .Property(b => b.TotalStavke).HasColumnType("decimal(18,2)");
+
+
+            modelBuilder.Entity<Proizvod>()
+        .Property(b => b.Cijena).HasColumnType("decimal(18,2)");
+
+
+            modelBuilder.Entity<ProizvodniNalog>()
+        .Property(b => b.TrosakPoProizvodu).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<ProizvodniNalog>()
+        .Property(b => b.UkupnaCijena).HasColumnType("decimal(18,2)");
+
+
+            modelBuilder.Entity<Recenzija>()
+        .Property(b => b.Ocjena).HasColumnType("decimal");
+
+            modelBuilder.Entity<UlazMaterijal>()
+        .Property(b => b.IznosRacuna).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<UlazMaterijal>()
+       .Property(b => b.PDV).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<UlazMaterijalStavke>()
+       .Property(b => b.Cijena).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<UlazProizvod>()
+       .Property(b => b.IznosRacuna).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<UlazProizvod>()
+          .Property(b => b.PDV).HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<UlazProizvodStavke>()
+      .Property(b => b.Cijena).HasColumnType("decimal(18,2)");
+        
+    }
 
         public virtual DbSet<Dostavljac> Dostavljac { get; set; }
         public virtual DbSet<Izlaz> Izlaz { get; set; }

@@ -7,6 +7,7 @@ using eNamjestaj.Data.Helper;
 using eNamjestaj.Data.Models;
 using eNamjestaj.Web.Areas.ModulAdministrator.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace eNamjestaj.Web.Areas.ModulAdministrator.Controllers
 {
@@ -65,6 +66,9 @@ namespace eNamjestaj.Web.Areas.ModulAdministrator.Controllers
         {
             Zaposlenik z = ctx.Zaposlenik.Where(x => x.Id == zaposlenikId).First();
             Korisnik k = ctx.Korisnik.Where(y => y.Id == z.KorisnikId).First();
+
+            var ulogeSelectList = ctx.Uloga.Select(s => new { s.Id, s.TipUloge }).Where(u => u.Id != 5).ToList();
+
             ZaposleniciUrediVM model = new ZaposleniciUrediVM
             {
                 ZaposlenikId = zaposlenikId,
@@ -72,7 +76,7 @@ namespace eNamjestaj.Web.Areas.ModulAdministrator.Controllers
                 Prezime = z.Prezime,
                 KorisnickoIme = k.KorisnickoIme,
                 UlogaID = k.UlogaId,
-                Uloge = ctx.Uloga.Where(u=>u.Id!=5).ToList()
+                Uloge = new SelectList(ulogeSelectList, "Id", "TipUloge")
             };
 
             return PartialView(model);
@@ -111,10 +115,14 @@ namespace eNamjestaj.Web.Areas.ModulAdministrator.Controllers
 
         public IActionResult Dodaj()
         {
+            var opstineSelectList = ctx.Opstina.Select(s => new { s.Id, s.Naziv }).ToList();
+            var ulogeSelectList = ctx.Uloga.Select(s => new { s.Id, s.TipUloge }).Where(u => u.Id != 5).ToList();
+
+
             ZaposleniciDodajVM model = new ZaposleniciDodajVM
             {
-                Opstine = ctx.Opstina.ToList(),
-                Uloge = ctx.Uloga.Where(u=>u.Id!=5).ToList()
+                Opstine = new SelectList(opstineSelectList, "Id", "Naziv"),
+                Uloge = new SelectList(ulogeSelectList, "Id", "TipUloge")
             };
             return View(model);
         }

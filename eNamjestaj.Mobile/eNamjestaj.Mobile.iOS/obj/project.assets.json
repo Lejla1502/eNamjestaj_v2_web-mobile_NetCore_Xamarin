@@ -2717,11 +2717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Mobile\\eNamjestaj.Mobile.iOS\\eNamjestaj.Mobile.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Mobile\\eNamjestaj.Mobile.iOS\\eNamjestaj.Mobile.iOS.csproj",
       "projectName": "eNamjestaj.Mobile.iOS",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Mobile\\eNamjestaj.Mobile.iOS\\eNamjestaj.Mobile.iOS.csproj",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Mobile\\eNamjestaj.Mobile.iOS\\eNamjestaj.Mobile.iOS.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Mobile\\eNamjestaj.Mobile.iOS\\obj\\",
+      "outputPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Mobile\\eNamjestaj.Mobile.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2739,13 +2739,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3-flatcontainer": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Mobile\\eNamjestaj.Mobile\\eNamjestaj.Mobile.csproj": {
-              "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Mobile\\eNamjestaj.Mobile\\eNamjestaj.Mobile.csproj"
+            "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Mobile\\eNamjestaj.Mobile\\eNamjestaj.Mobile.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Mobile\\eNamjestaj.Mobile\\eNamjestaj.Mobile.csproj"
             }
           }
         }

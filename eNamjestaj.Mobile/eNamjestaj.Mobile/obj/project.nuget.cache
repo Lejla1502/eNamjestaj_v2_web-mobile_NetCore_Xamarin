@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WNcxabu/kF20s9Ol3VEsjsQediuz2llJdYdfwCAgl+vuvjl5tXRHBWiFRh8TQF1ICGhr5Mg5yy/9W+xiwvRXDw==",
+  "dgSpecHash": "8gzA5CiAWn1Q7yFqhd74tvyQR83kCk+CI4kksHVGciB1rVn3FZ9d+ePbtY5dSgUxcFEytXVkTG8nicL/+YVWkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\eNamjestaj_v2_web-mobile_NetCore_Xamarin\\eNamjestaj.Mobile\\eNamjestaj.Mobile\\eNamjestaj.Mobile.csproj",
+  "projectFilePath": "C:\\Users\\HP\\source\\repos\\eNamjestaj\\eNamjestaj.Mobile\\eNamjestaj.Mobile\\eNamjestaj.Mobile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\flurl\\3.0.2\\flurl.3.0.2.nupkg.sha512",
